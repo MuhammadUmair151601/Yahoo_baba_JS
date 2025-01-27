@@ -736,3 +736,6 @@ some events are used in body while some inside the element and everyone has its 
 // a.push(5,6);
 // // it will add back the element 5 and 6 into the last of the array
 // console.log(a);
+
+// ********************lecture 39************************
+// shift and unshift
