@@ -46,4 +46,7 @@
 // console.log(a);
 
 // **********************lecture 06 *************************
-// 
+// var vs let vs const
+// in js we will use let mostly in js and const for constant values
+// var can be accessed from anywhere in the code while let is more secure similarly, var value can be overrided when we declare the var with same name the variable declared second will run instead of first but in let case we cannot do that but will be given as an error.
+// Const use for fixed values like numbers and decimal values.
