@@ -24,4 +24,7 @@
 // document.write used to write in document of HTML
 // console.log used to write in the console of the page in inspection portion.
 
-// ********************
+// ********************lecture 04************************
+// how to use comments in JS
+// comments can be single line and double line. for single line we use //  in start of the line while for double line we use /*____________-*/
+
