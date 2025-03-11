@@ -14,3 +14,14 @@
 //    </head>
 // same as <body> ---------code --------------- <script src = "index.js"> </script> </body>
 // we can use the link from the external js file.
+
+// ********************lecture 03***********************
+// HTML tags use in js.
+// we can use tags of html inside the js code.
+// Example:
+// document.write("i am a <br> programmer")
+// console.log("hello there <b> everyone </b> is fine")
+// document.write used to write in document of HTML
+// console.log used to write in the console of the page in inspection portion.
+
+// ********************
