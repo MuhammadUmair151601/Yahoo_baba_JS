@@ -83,3 +83,16 @@
 // %= --------------------> x= x%y
 // **= -------------------> x= x**y
 // the operations follows BODMAS rule
+
+// ***************************lecture 10***************************
+// chrome console tutorial
+// make files html and css
+// link them through <script> tag
+// run in live server
+// inspect the page and you will find the page of console in the browser
+// we can use console.log() for console operations
+// document.write for html document writing
+// console.time("test");
+// console.timeend("test");--------------> used for the time of execution finding
+// console.clear("clears the console page");
+// document.getElementbyId("main"); to get element through id name;
