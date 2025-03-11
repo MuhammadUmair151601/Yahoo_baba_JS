@@ -28,3 +28,22 @@
 // how to use comments in JS
 // comments can be single line and double line. for single line we use //  in start of the line while for double line we use /*____________-*/
 
+// ********************lecture 05************************
+// variables in js
+// these are like containers which stores value and can be changed any time during coding.
+// Rules
+// now space in variable name
+// no starting numbers
+// no starting special characters
+// numbers,_, and special characters are used in mid of the name
+// can be camel case like variableName
+// Example
+// let a = 15;
+// console.log(a)
+// // Example
+// let b ;
+// a= 23;
+// console.log(a);
+
+// **********************lecture 06 *************************
+// 
