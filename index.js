@@ -56,3 +56,19 @@
 // types of data used in coding we.
 //  var, let , const, bool, array, obj, null, undefined and string etc.
 
+// ***********************lecture 08************************
+// Arithematic operators in js
+// +,-,*,/,**,%,++,--
+// ** used as exponent 2**3 is equal to 2*2*2.
+// ++ used as increment it has pre and post increment used as pre run and post run in programming in post first it will provide its original value then it will give incremented value.
+// -- used as decrement it has pre and post increment used as pre run and post run in programming in post first it will provide its original value then it will give decremented value.
+// Example
+// let a = 23;
+// console.log(a++);
+// console.log(a)
+// result of 1st console = 23
+// result of 2nd console = 24
+// similarly,
+// let b = 20;
+// console.log(++b);
+// result of it will be directly 21.
