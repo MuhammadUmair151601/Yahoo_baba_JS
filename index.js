@@ -96,3 +96,15 @@
 // console.timeend("test");--------------> used for the time of execution finding
 // console.clear("clears the console page");
 // document.getElementbyId("main"); to get element through id name;
+
+// **************************lecture 11****************************
+// comparison operators
+// <, >, <=, >=,==, ===,!=, !==
+// <   used for less than
+// >   used for greater than
+// <=  used for less than or equal to
+// >= used for greater than or equal to
+// == used only for equality check
+// === used for datatype check as well
+// != used for not equal to
+// !== used for not equal data types
