@@ -108,3 +108,22 @@
 // === used for datatype check as well
 // != used for not equal to
 // !== used for not equal data types
+
+// EXAMPLE
+// let a = 12;
+// let b = 13;
+// console.log(a<b);
+// console.log(a>b);
+
+// EXAMPLE 2
+// let a = 12;
+// let b = 12;
+// console.log(a==b)
+// let a = 12;
+// let b = "12";
+// console.log(a===b)
+
+// EXAMPLE 3
+// let a = 13;
+// let b = 14;
+// console.log(a!==b);
