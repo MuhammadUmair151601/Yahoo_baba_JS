@@ -139,3 +139,10 @@
 // if(yes){
 //     alert("take an umbrella with yourself")
 // }
+
+// *******************************lecture 13*************************
+// logical operators
+// there are three types of it and is used according to the scenario of the proplem
+// 1  && AND operator used when both the conditions are to be true:
+// 2 || OR operator used when either one of the situations is true:
+// 3 ! NOT operator used when we want the opposite to be done:
