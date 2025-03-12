@@ -167,3 +167,14 @@
 // else{
 //     alert("you are pass")
 // }
+
+// ********************************lecture 15****************************
+// IF else if statement:
+// written as generally:
+// if(condition){
+// statement:}
+// else if(condition){
+// }
+// else{ statement  }
+// if first condition don't satisfy then second will execute then third and so on...... we can use multiple if else statements;
+// Example:
