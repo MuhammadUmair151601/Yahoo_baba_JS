@@ -146,3 +146,13 @@
 // 1  && AND operator used when both the conditions are to be true:
 // 2 || OR operator used when either one of the situations is true:
 // 3 ! NOT operator used when we want the opposite to be done:
+
+// EXAMPLE:
+// we want to make age restriction 
+// let age = prompt("please enter your age:");
+// if(age>=18 && age<=90){
+//     alert("you are eligible for the licence")
+// }
+// else{
+//     alert("you are not eligible");
+// }
