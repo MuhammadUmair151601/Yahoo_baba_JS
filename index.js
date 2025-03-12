@@ -156,3 +156,14 @@
 // else{
 //     alert("you are not eligible");
 // }
+
+// *******************************lecture 14****************************
+// IF else statement
+// if fisrst statement becomes false then the else statement will run:
+// let marks = prompt("enter your marks:");
+// if(marks<50){
+//     alert("you are fail");
+// }
+// else{
+//     alert("you are pass")
+// }
