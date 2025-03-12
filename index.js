@@ -127,3 +127,11 @@
 // let a = 13;
 // let b = 14;
 // console.log(a!==b);
+
+// ******************************lecture 12*************************
+// if Statements
+// used for condition situations if condition satisfies the statement will run 
+// general form
+// if (condition){
+//                     statement};
+// Example
