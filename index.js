@@ -135,3 +135,7 @@
 // if (condition){
 //                     statement};
 // Example
+// let prompt("is it rain today?")
+// if(yes){
+//     alert("take an umbrella with yourself")
+// }
