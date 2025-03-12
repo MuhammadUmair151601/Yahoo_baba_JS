@@ -177,4 +177,21 @@
 // }
 // else{ statement  }
 // if first condition don't satisfy then second will execute then third and so on...... we can use multiple if else statements;
+
 // Example:
+// let marks = +prompt("please insert your marks");
+// if(marks<=50){
+//     alert("you are failed:")
+// }
+// else if(marks>=50 && marks<=60){
+//     alert("you got second division")
+// }
+// else if(marks>=60 && marks<=70){
+//     alert("you got first division")
+// }
+// else if(marks>70 && marks<=100){
+//     alert("you got an A+")
+// }
+// else{
+//     alert("insert a valid number please")
+// }
