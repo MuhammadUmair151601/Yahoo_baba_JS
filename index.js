@@ -210,3 +210,8 @@
 // alert("Hello everyone")
 // let a = "Welcome to javascript";
 // alert(a);
+
+// ******************************lecture 18*****************************
+// confirm is same as alert but it requires options ok and  cancel 
+// EXAMPLE
+// confirm("hi");
