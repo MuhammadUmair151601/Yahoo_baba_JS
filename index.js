@@ -195,3 +195,18 @@
 // else{
 //     alert("insert a valid number please")
 // }
+
+// ******************************lecture 16*****************************
+// Conditional (ternary operators)
+// we can say it is the shortcut form of if statement:
+// let a = 10;
+// let b = 11;
+// (a==b)? b = "true": b = "false";
+
+// ******************************lecture 17*****************************
+// Alert box:
+// it is clear from the name that it gives us an alert box to show a message or warning etc.
+// Example
+// alert("Hello everyone")
+// let a = "Welcome to javascript";
+// alert(a);
