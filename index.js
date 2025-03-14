@@ -264,4 +264,16 @@
 // function functionName(){
 // }--------------------------->Function Declaration:
 // functionName();-------------------------->Function calling:
-
+// Example:
+// function fun(){
+//     console.log("Hello \n");
+//     console.log("How are you")
+// }
+// fun();
+// function addition(){
+//     let a = 10;
+//     let b = 20;
+//     let c = a + b;
+//     console.log(c);
+// }
+// addition();
