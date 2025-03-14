@@ -294,3 +294,15 @@
 //     console.log("The sum of "+ a +" and "+ b +" is "+ " " + (a+b));
 // }
 // sum(15, 15)
+
+// *************************lecture 23******************************
+// functions with return values
+// we can use the return values of the functions in order to use these functions in variables later in code.
+// it can be declared as:
+// function funName(p1, p2){
+// var s = p1 + p2;
+// var p = sum/500*100;
+// return s;
+// return p;}
+// var tt = funName(s);
+// var per = funName(p);
