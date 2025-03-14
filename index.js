@@ -331,3 +331,9 @@
 // }
 // let Name = fullName("Muhammad " , "Zaweyar");
 // console.log(Name);
+
+// ************************lecture 24************************
+//Local variable and Global variable:
+//A variable outside the block of code is called global variable like a variable outside the function.
+// A variable inside the block of code or inside a function is called local variable.
+// global variable can be accessed from anywhere while local cannot be accessed:
