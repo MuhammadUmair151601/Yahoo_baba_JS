@@ -256,3 +256,12 @@
 //     }
 //     default: {alert("enter a valid number")}
 // }
+
+// *****************************lecture 21************************
+// Functions:
+// functions are a block of code use to per form a specific task  in programming:
+// functions can be used as:
+// function functionName(){
+// }--------------------------->Function Declaration:
+// functionName();-------------------------->Function calling:
+
