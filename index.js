@@ -277,9 +277,20 @@
 //     console.log(c);
 // }
 // addition();
+
 // ***********************lecture 22**************************
 // Functions with parameters
 // We use functions with parameters because sometimes we want to change the valuse inside the functions with time:
 // Functions with parameters can be defined as:
 // function FunName(parameter1, parameter2){
 // statement(argument1, argument2);}
+// Example one
+// function funName(firstname, lastname){
+//     console.log("hello " + firstname +" "+lastname);
+// }
+// funName("Muhammad", "umair")
+// Example two
+// function sum(a , b){
+//     console.log("The sum of "+ a +" and "+ b +" is "+ " " + (a+b));
+// }
+// sum(15, 15)
