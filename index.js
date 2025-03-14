@@ -220,3 +220,39 @@
 // prompt box:
 // used to get some input from the user for a website prompt and +prompt used for getting number as an input
 // let number = +prompt("enter a number please")
+
+// *****************************lecture 20******************************
+// Switch statement:
+// it is same a if statement and is used for multiple statements choicing purpose:
+// let num = +prompt("enter a day number from one to seven:");
+// switch(num){
+//     case 1: {
+//         alert("it is monday");
+//         break;
+//     }
+//     case 2: {
+//         alert("it is tuesday");
+//         break;
+//     }
+//     case 3: {
+//         alert("it is wednesday");
+//         break;
+//     }
+//     case 4: {
+//         alert("it is thursday");
+//         break;
+//     }
+//     case 5: {
+//         alert("it is friday");
+//         break;
+//     }
+//     case 6: {
+//         alert("it is saturday");
+//         break;
+//     } 
+//     case 7: {
+//         alert("it is sunday");
+//         break;
+//     }
+//     default: {alert("enter a valid number")}
+// }
