@@ -215,3 +215,8 @@
 // confirm is same as alert but it requires options ok and  cancel 
 // EXAMPLE
 // confirm("hi");
+
+// ******************************lecture 19*****************************
+// prompt box:
+// used to get some input from the user for a website prompt and +prompt used for getting number as an input
+// let number = +prompt("enter a number please")
