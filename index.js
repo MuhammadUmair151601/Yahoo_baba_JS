@@ -306,3 +306,28 @@
 // return p;}
 // var tt = funName(s);
 // var per = funName(p);
+// Example one
+// function result(math, phy, chem, bio, eng, comp){
+//     var sum = math+phy+chem+bio+eng+comp;
+//     var percentage = ((sum/600)*100 +"%");
+//    return{sum: sum, percentage: percentage};
+// }
+// var Result = result(90, 99, 87, 88, 78, 78);
+// console.log(Result);
+// function result(math, phy, chem, bio, eng, comp) {
+//     var sum = math + phy + chem + bio + eng + comp;
+//     var percentage = (sum / 600) * 100;
+    
+//     return { sum: sum, percentage: percentage };
+// }
+
+// var ResultData = result(90, 89, 85, 34, 88, 92);
+
+// console.log("Total Marks:", ResultData.sum);
+// console.log("Percentage:", ResultData.percentage + "%");
+// function fullName(fname, lname){
+//     let name = (fname + lname) ;
+//     return name;
+// }
+// let Name = fullName("Muhammad " , "Zaweyar");
+// console.log(Name);
