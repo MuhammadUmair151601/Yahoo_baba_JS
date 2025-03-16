@@ -337,3 +337,28 @@
 //A variable outside the block of code is called global variable like a variable outside the function.
 // A variable inside the block of code or inside a function is called local variable.
 // global variable can be accessed from anywhere while local cannot be accessed:
+// Example:
+// var a = " Hello everyone";
+// function greetings(){
+//     console.log(a);
+// }
+// // greetings();
+
+// ************************lecture 25***********************
+// events in js 
+// Events in js are used for giving functionality to the elements of HTML
+// following events are used:
+/* click--------------->onclick
+double click----------->ondblclick
+right click ----------->oncountextmenu
+mouse hover------------>onmouseenter
+mouse cut-------------->onmousecut
+mouse down------------->onmousedown
+mouse up--------------->onmouseup
+key press-------------->onkeypress
+key up ---------------->onkeyup
+load ------------------>onload
+unload ---------------->onunload
+resize ---------------->onresize
+scroll----------------->onscroll
+some events are used in body while some inside the element and everyone has its own functionality:*/
