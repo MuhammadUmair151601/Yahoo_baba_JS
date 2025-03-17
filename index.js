@@ -362,3 +362,9 @@ unload ---------------->onunload
 resize ---------------->onresize
 scroll----------------->onscroll
 some events are used in body while some inside the element and everyone has its own functionality:*/
+
+// Examples of events in JS:
+let a = "hello there";
+function hello(){
+    alert(a);
+}
