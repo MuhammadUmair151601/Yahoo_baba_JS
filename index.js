@@ -364,7 +364,22 @@ scroll----------------->onscroll
 some events are used in body while some inside the element and everyone has its own functionality:*/
 
 // Examples of events in JS:
-let a = "hello there";
-function hello(){
-    alert(a);
-}
+// let a = "hello there";
+// function hello(){
+//     alert(a);
+// }
+
+// ************************lecture 26**********************
+//loops 
+// there are five types of loops used in JS:
+// while loop
+// do while loop
+// for loop
+// for in loop
+// for each loop
+// Now while loop:
+// it has following syntax
+// 1: initialization
+// 2: condition
+// 3: incrementation etc.
+
