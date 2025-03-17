@@ -383,3 +383,28 @@ some events are used in body while some inside the element and everyone has its 
 // 2: condition
 // 3: incrementation etc.
 
+// Example:
+// If we want to print numbers from 1 ot 50:
+// let a = 1; 
+// while(a<=50){
+//     console.log(a);
+//     a++;
+// }
+// if we want to print them in reverse order:
+// let a = 50;
+// while(a>=1){
+//     console.log(a);
+//     a--;
+// }
+// if we want to print a sentence multiple times:
+// let a = 1;
+// while(a<=10){
+//     console.log(a + ")I am fine")
+//     a++;
+// }
+// if we want to print them in reverse order:
+// let a = 10;
+// while(a>=1){
+//     console.log(a + ") i am fine")
+//     a--;
+// }
