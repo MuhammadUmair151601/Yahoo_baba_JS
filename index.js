@@ -426,3 +426,12 @@ some events are used in body while some inside the element and everyone has its 
 // a++;
 // }
 // while(a<=10)
+
+// Example 2:
+// printing numbers in reverse order
+// let a = 10;
+// do{
+//     console.log(a);
+//     a--;
+// }
+// while(a>=1)
