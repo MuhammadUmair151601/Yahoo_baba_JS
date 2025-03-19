@@ -463,3 +463,23 @@ some events are used in body while some inside the element and everyone has its 
 // break and continue in JS:
 // continue continues the loop from next iteration if more than one conditions are given inside a loop:
 // while break jumps out of the loop and ends it on that time:
+
+// Example:continue 
+// for(let a = 1; a<=10; a++){
+//     if(a==3){
+//         console.log("---->" + a)
+//         continue;
+//     }
+//     console.log("->" + a);
+// }
+// The ---->3 will be printed and the 4 will be started from loop again:
+
+// Example:Break
+// for(let a = 1; a<=10; a++){
+//     if(a==3){
+//         console.log("---->" + a)
+//         break;
+//     }
+//     console.log("->" + a);
+// }
+// it will print until 3 and will stop the loop at 3:
