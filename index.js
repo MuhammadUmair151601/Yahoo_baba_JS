@@ -435,3 +435,13 @@ some events are used in body while some inside the element and everyone has its 
 //     a--;
 // }
 // while(a>=1)
+
+// **********************lecture 28*****************
+// for loop
+// in this loop the initialization, condition and incrementation is declared before the statements:
+// general form:
+// for(let a=value; value<=another value; value++/--)
+// { console.log(a)
+// a++
+// }
+// nowadays most of the developers use it because it is most reliable and easy way in loops:
