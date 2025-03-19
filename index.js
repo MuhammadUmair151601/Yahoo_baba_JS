@@ -408,3 +408,21 @@ some events are used in body while some inside the element and everyone has its 
 //     console.log(a + ") i am fine")
 //     a--;
 // }
+
+// ***********************lecture 27**********************************
+// do while loop
+// same as while loop but the structure is same first the loop is run atleast once then the condition is checked.
+// general form
+// let a = value;
+// do{
+// console.log(value)
+// value++}
+// while(condition)
+
+// Example 1:
+// let a = 1;
+// do{
+// console.log(a)
+// a++;
+// }
+// while(a<=10)
