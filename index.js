@@ -483,3 +483,20 @@ some events are used in body while some inside the element and everyone has its 
 //     console.log("->" + a);
 // }
 // it will print until 3 and will stop the loop at 3:
+
+// ******************lecture 30***************************************
+// finding even and odd numbers in using loop:
+
+// for finding even numbers:
+// for(let a = 1; a <= 20; a++){
+//     if(a % 2 == 0){
+//         console.log(a)
+//     }
+// }
+
+// finding odd numbers:
+// for(let a = 1; a <= 20; a++){
+//     if(a % 2 != 0){
+//         console.log(a)
+//     }
+// }
