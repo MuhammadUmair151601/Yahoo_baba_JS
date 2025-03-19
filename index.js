@@ -445,3 +445,16 @@ some events are used in body while some inside the element and everyone has its 
 // a++
 // }
 // nowadays most of the developers use it because it is most reliable and easy way in loops:
+
+// Example 1:
+// printing numbers from one to ten:
+// for(let a = 1; a<=10; a++){
+//     console.log(a)
+// }
+
+// Example 2:
+// printing them in reverse order:
+// for(let a = 10; a>=1; a--)
+// {
+//     console.log(a)
+// }
