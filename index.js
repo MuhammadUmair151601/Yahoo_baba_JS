@@ -458,3 +458,8 @@ some events are used in body while some inside the element and everyone has its 
 // {
 //     console.log(a)
 // }
+
+// ***********************lecture 29****************************
+// break and continue in JS:
+// continue continues the loop from next iteration if more than one conditions are given inside a loop:
+// while break jumps out of the loop and ends it on that time:
