@@ -500,3 +500,16 @@ some events are used in body while some inside the element and everyone has its 
 //         console.log(a)
 //     }
 // }
+
+// **********************lecture 31*********************
+// nested loops
+// when we put loops inside the loops are called nested loops 
+// we use nested loops when we want to show data in tabular or matrix form.
+// we can use more than one loop inside the loop
+// General form
+// For (conditions etc){
+// for(conditions etc){
+// document.write(statement);
+// }
+//  document.write("<br>")
+// }
