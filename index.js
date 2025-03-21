@@ -555,3 +555,11 @@ some events are used in body while some inside the element and everyone has its 
 //     }
 //     document.write("<br>")
 // }
+
+// ********************lecture 33*****************************
+// Arrays
+// Used to store multiple values in a single variable.
+// Example:
+// let arr = [1,2,3,4,5]
+// document.write(arr);
+// we can also use arrays in lists and summitions 
