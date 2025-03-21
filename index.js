@@ -580,3 +580,11 @@ some events are used in body while some inside the element and everyone has its 
 //     sum = sum + array[a];
 // }
 // document.write("The total is: "+ sum);
+
+// Example 3:
+// applying lists on an array
+// let array = [1,2,3,4,5]
+// for(a=0; a<=4; a++){
+//         document.write("<li>" +array[a]+"</li>")
+//     }
+    
