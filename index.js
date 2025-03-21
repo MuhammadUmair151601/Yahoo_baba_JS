@@ -513,3 +513,13 @@ some events are used in body while some inside the element and everyone has its 
 // }
 //  document.write("<br>")
 // }
+
+// Example:
+// if we want to show data from one to hundred in a tabular form
+// for (let a = 1; a <= 100; a += 10) {
+//     for (let b = a; b < a + 10; b++) {
+//         document.write(b + "\n");
+//     }
+//     document.write("<br>"); 
+// }
+
