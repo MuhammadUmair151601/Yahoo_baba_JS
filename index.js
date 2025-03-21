@@ -547,3 +547,11 @@ some events are used in body while some inside the element and everyone has its 
 //     }
 //     document.write("<br>")
 // }
+
+// Self made example:
+// for(let a = 5; a>=1; a--){
+//     for(let b = a; b>=1; b--){
+//         document.write(a+" ")
+//     }
+//     document.write("<br>")
+// }
