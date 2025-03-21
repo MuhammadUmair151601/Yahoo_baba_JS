@@ -523,3 +523,27 @@ some events are used in body while some inside the element and everyone has its 
 //     document.write("<br>"); 
 // }
 
+// **********************lecture 32**************************
+// Example 1 on nested for loop:
+// for (let a = 1; a<= 5; a++){
+//     for(let b = 1; b <= a; b++){
+//         document.write(b + "\n")
+//     }
+//     document.write("<br>")
+// }
+
+// Example 2:
+// for (let a = 1; a <= 5; a++){
+//     for (let b = 1; b <= a; b++){
+//         document.write(a +" ")
+//     }
+//     document.write("<br>")
+// }
+
+// Example 3:
+// for(let a = 5; a >= 1; a--){
+//     for(b=a; b>=1; b--){
+//         document.write(b)
+//     }
+//     document.write("<br>")
+// }
