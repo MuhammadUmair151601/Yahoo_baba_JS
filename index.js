@@ -563,3 +563,20 @@ some events are used in body while some inside the element and everyone has its 
 // let arr = [1,2,3,4,5]
 // document.write(arr);
 // we can also use arrays in lists and summitions 
+
+// Example 1:
+// Applying array in loop:
+// let array = [1,2,3,4,5]
+// for(a=0; a<=4; a++){
+//     document.write(array[a])
+// }
+
+// Example 2:
+// Applying array for summition:
+// let array = [1,2,3,4,5]
+// sum = 0;
+// for(a=0; a<=4; a++){
+//     document.write(array[a] +"<br>")
+//     sum = sum + array[a];
+// }
+// document.write("The total is: "+ sum);
