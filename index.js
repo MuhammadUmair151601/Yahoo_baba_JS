@@ -621,3 +621,75 @@ some events are used in body while some inside the element and everyone has its 
 //     document.write(arr[a] + "<br>");
 // }
 // document.write("<ul>")
+
+// *************************lecture 35*****************************
+// Multidimentional Array
+// let arr = [
+//     ["ali", 13, "male", "ninth"],
+//     ["anam", 20, "female", "BSCS"],
+//     ["raza", 30, "male", "lecturer"],
+//     ["ahmed", 25, "male", "BSSE"]
+// ];
+// console.log(arr);
+
+// if we want to print separately specific elements 
+// let arr = [
+//     ["ali", 13, "male", "ninth"],
+//     ["anam", 20, "female", "BSCS"],
+//     ["raza", 30, "male", "lecturer"],
+//     ["ahmed", 25, "male", "BSSE"]
+// ];
+// console.log(arr[0]); ---------it will print only 0 index array
+// console.log(arr[0][2]); ---------it will print only 2nd value in 0 index array
+
+// Now we can apply loop on it
+// let arr = [
+//     ["ali", 13, "male", "ninth"],
+//     ["anam", 20, "female", "BSCS"],
+//     ["raza", 30, "male", "lecturer"],
+//     ["ahmed", 25, "male", "BSSE"]
+// ];
+// for(let a=0; a<3; a++){
+//         document.write(arr[a] + "<br>");
+// }
+
+// we can also apply nested loops on internal arrays:
+// let arr = [
+//     ["ali", 13, "male", "ninth"],
+//     ["anam", 20, "female", "BSCS"],
+//     ["raza", 30, "male", "lecturer"],
+//     ["ahmed", 25, "male", "BSSE"]
+// ];
+// for(let a=0; a<3; a++){ 
+
+//     for(let b=0; b<3; b++){
+//         document.write(arr[a][b] + "<br>"); -----------break is applied on both the internal and external arrays:
+//      }
+        
+// }
+
+// Now applying table on multidimentional arrays:
+// let arr = [
+//     ["Name", "Age", "Gender", "Education"],
+//     ["Ali", 13, "Male", "Ninth"],
+//     ["Anam", 20, "Female", "BSCS"],
+//     ["Raza", 30, "Male", "Lecturer"],
+//     ["Ahmed", 25, "Male", "BSSE"]
+// ];
+
+// document.write("<table border='1' cellpadding='5' cellspacing='0'>");
+
+// // Loop through the array to generate table rows and columns
+// for (let a = 0; a < arr.length; a++) {  
+//     document.write("<tr>");
+//     for (let b = 0; b < arr[a].length; b++) {
+//         if (a === 0) {
+//             document.write("<th>" + arr[a][b] + "</th>"); // Table headers for the first row
+//         } else {
+//             document.write("<td>" + arr[a][b] + "</td>");
+//         }
+//     }
+//     document.write("</tr>");
+// }
+
+// document.write("</table>");
