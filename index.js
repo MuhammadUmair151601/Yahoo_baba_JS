@@ -587,4 +587,26 @@ some events are used in body while some inside the element and everyone has its 
 // for(a=0; a<=4; a++){
 //         document.write("<li>" +array[a]+"</li>")
 //     }
-    
+
+// ******************************lecture 34*************************
+// var arr = new Array();
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+// arr[3] = 4;
+// arr[4] = 5;
+// for(a=0; a<=4; a++){
+//     console.log(arr[a]);
+// }
+
+
+var arr = new Array();
+arr[0] = 1;
+arr[1] = 2;
+arr[2] = 3;
+arr[3] = 4;
+arr[4] = 5;
+for(a=0; a<=4; a++){
+    console.log(arr[a]);
+}
+
