@@ -693,3 +693,21 @@ some events are used in body while some inside the element and everyone has its 
 // }
 
 // document.write("</table>");
+
+// ********************lecture 36**********************
+// modify and delete array elements:
+// replacing index elements with other elements:
+// let a = [1,2,3,4,5]
+// a[1] = 12;
+// //for a[1] the 12 value will replace 2 in index 1:
+// // similarly if we want to replace 3 with 11 on index 2:
+// a[2] = 11;
+// console.log(a);
+
+// delete element from an array
+// let a=["ali", 19, "Msc"];
+// delete a [1];
+
+// // this will delete 19 from array:
+// delete a[2];
+// console.log(a);
