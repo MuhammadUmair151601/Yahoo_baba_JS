@@ -725,3 +725,14 @@ some events are used in body while some inside the element and everyone has its 
 // a.reverse();
 // console.log(a);
 // it will reverse all the elements:
+
+// ********************lecture 38*********************
+// push and pop of an array
+// push: adds an element to the end of an array:
+// pop: removes element from the end of an array:
+// let a = [1,2,3,4,5]
+// a.pop(4);
+// console.log(a);
+// a.push(5,6);
+// // it will add back the element 5 and 6 into the last of the array
+// console.log(a);
