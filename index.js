@@ -711,3 +711,17 @@ some events are used in body while some inside the element and everyone has its 
 // // this will delete 19 from array:
 // delete a[2];
 // console.log(a);
+
+// ******************lecture 37**********************
+// Array methods
+// there are total 24 methods in Arrays we wil now discuss sorting and reversing of an array:
+// let a = ["ali","ahmed","wahid", "fahad", "shayan", "naveed"];
+// // now if we want to print these values in ascending order:
+// a.sort();
+// console.log(a);
+
+// Now if we want to reverse the array:
+// let a = [1,2,3,4,5];
+// a.reverse();
+// console.log(a);
+// it will reverse all the elements:
