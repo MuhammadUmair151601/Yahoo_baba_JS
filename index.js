@@ -738,4 +738,5 @@ some events are used in body while some inside the element and everyone has its 
 // console.log(a);
 
 // ********************lecture 39************************
-// shift and unshift
+// shift and unshift.
+// shift and unshift are also used for adding and removing messages from an array
