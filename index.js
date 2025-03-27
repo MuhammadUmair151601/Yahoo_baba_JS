@@ -739,4 +739,14 @@ some events are used in body while some inside the element and everyone has its 
 
 // ********************lecture 39************************
 // shift and unshift.
-// shift and unshift are also used for adding and removing messages from an array
+// shift and unshift are also used for adding and removing messages from an array to the first index of an array
+// shift: it removes the first element from an array.
+// unshift adds the element to the first index of an array.
+// Example:
+// let a = [1,2,3,4,5];
+// a.shift();
+// console.log(a);
+// // similarly:
+// // let a = [1,2,3,4,5];
+// a.unshift(1);
+// console.log(a);
