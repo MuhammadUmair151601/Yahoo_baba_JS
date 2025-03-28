@@ -786,3 +786,10 @@ some events are used in body while some inside the element and everyone has its 
 // const slicedarray = a.slice(2,6);
 // console.log(slicedarray);
 // it will print elements from index 
+
+// Splice Array:
+// it is used to replace elements of an array with new ones;
+// let a = [1,2,3,4,5,6,7,8,9,0];
+// // now we want to  replace 2,3,4 with 1,1,1
+// a.splice(1,3,1,1,1);
+// console.log(a);
