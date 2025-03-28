@@ -750,3 +750,8 @@ some events are used in body while some inside the element and everyone has its 
 // // let a = [1,2,3,4,5];
 // a.unshift(1);
 // console.log(a);
+
+// *******************lecture 40*********************
+// concat() and join():
+// concat is used to link two or three or more arrays to each other:
+// while join is used to link all the elements inside an array:
