@@ -771,3 +771,9 @@ some events are used in body while some inside the element and everyone has its 
 // let c = [7,8,9,10,11,21]
 // let d = a.concat(b,c);
 // console.log(d);
+
+// join(): Example:
+// let a = ["ali","Ahmed","khan"];
+// let b = a.join("_");
+// console.log(b);
+// it will join all the words in form of ali_ahmed_khan:
