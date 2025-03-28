@@ -755,3 +755,19 @@ some events are used in body while some inside the element and everyone has its 
 // concat() and join():
 // concat is used to link two or three or more arrays to each other:
 // while join is used to link all the elements inside an array:
+
+// Eample concat():
+// let a = [1,2,3,4,5];
+// let b = [4,5,6,7,8];
+// let c = a.concat(b);
+// console.log(c);
+// similarly;
+// let a = [1,2,3,4,5];
+// a = a.concat("ali",3,4,5,5);
+// console.log(a)
+// For three arrays we can do:
+// let a = [1,2,3,4,5];
+// let b = [4,5,6,7,8];
+// let c = [7,8,9,10,11,21]
+// let d = a.concat(b,c);
+// console.log(d);
