@@ -777,3 +777,12 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.join("_");
 // console.log(b);
 // it will join all the words in form of ali_ahmed_khan:
+
+// *************************lecture 41*********************************
+// slice and splice of an array:
+// slice is used to get a piece of an array and print it;
+// Example:
+// let a = [1,2,3,4,5,6,7,8,9,0];
+// const slicedarray = a.slice(2,6);
+// console.log(slicedarray);
+// it will print elements from index 
