@@ -793,3 +793,22 @@ some events are used in body while some inside the element and everyone has its 
 // // now we want to  replace 2,3,4 with 1,1,1
 // a.splice(1,3,1,1,1);
 // console.log(a);
+
+// **********************lecture 42*************************
+// IsArray();
+// Used to check whether the variable declared is an array or not:
+// Example:
+// let a = [1,2,3,4,5];
+// let b = Array.isArray(a);
+// console.log(b);
+// We can also use if statements in this:
+// 
+// similarly:
+// let a = "hello";
+// if(Array.isArray(a))
+//     {
+//     console.log("it is an array:");
+// }
+// else{
+//     console.log("it is not an array:")
+// }
