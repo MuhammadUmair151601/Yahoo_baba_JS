@@ -834,3 +834,23 @@ some events are used in body while some inside the element and everyone has its 
 // let a = [12,23,34,4,5];
 // let b = a.includes(34);
 // console.log(b);
+
+// *********************lecture 45***********************
+// some and every method in an array:
+// some(): used when atleast one element in an array satisfies the condition;
+// every(): used when all the elments in an array satisfies the condition;
+// Example for some() method:
+// let age = [12,14,12,4,55];
+// let b = age.some(checkeligibility);
+// function checkeligibility(age){
+//     return age>=18
+// }
+// console.log(b);
+
+// Example for every() method:
+// let value = [2,4,6];
+// let divisibility = value.every(divisible);
+// function divisible(value){
+//     return value%2==0;
+// }
+// console.log(divisibility);
