@@ -826,3 +826,11 @@ some events are used in body while some inside the element and everyone has its 
 // let a = [1,2,3,4,5];
 // let b = a.lastIndexOf(4);
 // console.log(b);
+
+// *******************lecture 44********************
+// includes():
+// this method is used where the item in an array is included in it or not:
+// Example:
+// let a = [12,23,34,4,5];
+// let b = a.includes(34);
+// console.log(b);
