@@ -817,3 +817,12 @@ some events are used in body while some inside the element and everyone has its 
 // indexof / lastindexof
 // they are used to search the index of an element 
 // indexof is used to search index of element from the start while lastindexof is used to search the index of an element from last:
+
+// Example:indexof
+// let a = [1,2,3,4,5,6,7,8,9];
+// let b = a.indexOf(3);
+// console.log(b);
+
+// let a = [1,2,3,4,5];
+// let b = a.lastIndexOf(4);
+// console.log(b);
