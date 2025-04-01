@@ -812,3 +812,8 @@ some events are used in body while some inside the element and everyone has its 
 // else{
 //     console.log("it is not an array:")
 // }
+
+// ********************lecture 43***********************
+// indexof / lastindexof
+// they are used to search the index of an element 
+// indexof is used to search index of element from the start while lastindexof is used to search the index of an element from last:
