@@ -854,3 +854,8 @@ some events are used in body while some inside the element and everyone has its 
 //     return value%2==0;
 // }
 // console.log(divisibility);
+
+// **********************lecture 46***************************
+// find() & findindex():
+// find() method is used to print the first value of the element in an array which passes the condition:
+// findindex() used to print the first index of the element which passes the condition:
