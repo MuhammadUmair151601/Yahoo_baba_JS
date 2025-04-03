@@ -877,3 +877,14 @@ some events are used in body while some inside the element and everyone has its 
 // }
 // console.log(correct);
 // console.log(index);
+
+// ********************lecture 47************************
+// filter():
+// this method is used to print all the elements of an array which satisfies the condition:
+// Example:
+// let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let b = a.filter(check);
+// function check(num) {  
+//     return num >= 5;
+// }
+// console.log(b); 
