@@ -894,3 +894,17 @@ some events are used in body while some inside the element and everyone has its 
 // tostring is used to convert an array to a string:
 // valueof is used for printing the values of the array we dont use it as it is default:
 // fill is used to replace an element of array with all the elements of the array:
+
+// example on to string:
+// let a = ["i", "am", "learning", "javascript"];
+// b= a.toString();
+// console.log(b);
+
+// example of value  of:
+// let a = ["hi","i","am","there"];
+// console.log(valueof(a));
+
+// example of fill():
+// let a = [1,2,3,4,5];
+// let b = a.fill(8);
+// console.log(b);
