@@ -859,3 +859,21 @@ some events are used in body while some inside the element and everyone has its 
 // find() & findindex():
 // find() method is used to print the first value of the element in an array which passes the condition:
 // findindex() used to print the first index of the element which passes the condition:
+
+// Example find():
+// let value = [10,20,30,40];
+// let age = value.find(check);
+// function check(num) {
+//     return num >=20;
+// }
+// console.log(age);
+
+// Example indexof():
+// let value = [23,34,45,56];
+// let correct = value.find(check);
+// let index= value.findIndex(check);
+// function check(number){
+//     return number>=40;
+// }
+// console.log(correct);
+// console.log(index);
