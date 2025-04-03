@@ -888,3 +888,9 @@ some events are used in body while some inside the element and everyone has its 
 //     return num >= 5;
 // }
 // console.log(b); 
+
+// ********************lecture 48**********************
+// tostring(), valueof(), fill().
+// tostring is used to convert an array to a string:
+// valueof is used for printing the values of the array we dont use it as it is default:
+// fill is used to replace an element of array with all the elements of the array:
