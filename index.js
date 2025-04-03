@@ -908,3 +908,8 @@ some events are used in body while some inside the element and everyone has its 
 // let a = [1,2,3,4,5];
 // let b = a.fill(8);
 // console.log(b);
+
+// *****************lecture 49**************************
+// foreach loop:
+// foreach loop is used on arrays and it targets the elements of an array:
+// we can implement a specific function on the elements of an array:
