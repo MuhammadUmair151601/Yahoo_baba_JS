@@ -945,3 +945,17 @@ some events are used in body while some inside the element and everyone has its 
 // console.log(obj1.favSubs);
 
 // we can also put functions in it:
+// let obj1 = 
+// {
+//     firstName : "muhammad",
+//     lastName  : "umair",
+//     gender    : "male",
+//     age       : 25,
+//     email     : "uk@123gmail.com",
+//     favSubs   : ["ip","DB","OS","DLD","WebEngg"],
+//     a:function(a , b){
+//         return a + b;
+//     }
+// }; 
+// console.log(obj1.favSubs);
+// console.log(obj1.a(5 , 6));
