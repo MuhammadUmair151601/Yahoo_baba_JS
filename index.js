@@ -959,3 +959,25 @@ some events are used in body while some inside the element and everyone has its 
 // }; 
 // console.log(obj1.favSubs);
 // console.log(obj1.a(5 , 6));
+
+// We can also add another object inside the object:
+// let obj1 = 
+// {
+//     firstName : "muhammad",
+//     lastName  : "umair",
+//     gender    : "male",
+//     age       : 25,
+//     email     : "uk@123gmail.com",
+//     favSubs   : ["ip","DB","OS","DLD","WebEngg"],
+//     a:function sum(a , b){
+//         return a+b;
+//     },
+//     obj2 :
+//     {
+//         fName : "ali",
+//         lName : "ahmed"
+//     }
+// }; 
+// console.log(obj1.favSubs);
+// console.log(obj1.a(5, 6));
+// console.log(obj1.obj2.fName)
