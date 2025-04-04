@@ -931,3 +931,17 @@ some events are used in body while some inside the element and everyone has its 
 // Objects in js are used which contains data and also some nested objects with some specific properties:
 // objects are represents as objectName{data}
 // we can put biodata, arrays, nested objects and general information:
+
+// Examples of objects
+// let obj1 = 
+// {
+//     firstName : "muhammad",
+//     lastName  : "umair",
+//     gender    : "male",
+//     age       : 25,
+//     email     : "uk@123gmail.com",
+//     favSubs   : ["ip","DB","OS","DLD","WebEngg"]
+// }; 
+// console.log(obj1.favSubs);
+
+// we can also put functions in it:
