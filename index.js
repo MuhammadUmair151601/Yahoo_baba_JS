@@ -990,3 +990,16 @@ some events are used in body while some inside the element and everyone has its 
 // name.firstName = "fahad",
 // name.lastName = "khan"
 // console.log(name.firstName);
+
+// **********************lecture 52***********************
+// Array of objects
+// let std = [
+//     {Name : "ram" , age : "25"},
+//     {Name : "karan", age : "43"},
+//     {Name : "naheed", age : "67"}
+// ];
+// // for printing specific object
+// for (let a = 0; a<std.length; a++){
+//     console.log(std[a].Name + " " +std[a].age);
+// }
+// console.log(std[1].Name + " " + std[1].age);
