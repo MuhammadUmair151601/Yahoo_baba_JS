@@ -981,3 +981,12 @@ some events are used in body while some inside the element and everyone has its 
 // console.log(obj1.favSubs);
 // console.log(obj1.a(5, 6));
 // console.log(obj1.obj2.fName)
+
+// **********************lecture 51************************
+// new method for declaring objects:
+// we can declare objects before and then after some coding we insert values with properties in it:
+// let  name = new Object();
+// // after some coding
+// name.firstName = "fahad",
+// name.lastName = "khan"
+// console.log(name.firstName);
