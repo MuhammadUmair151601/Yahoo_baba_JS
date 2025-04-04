@@ -925,3 +925,9 @@ some events are used in body while some inside the element and everyone has its 
 // a.forEach(function(number){
 //     console.log(number*5)
 // });
+
+// *********************lecture 50**********************
+// objects in JS:
+// Objects in js are used which contains data and also some nested objects with some specific properties:
+// objects are represents as objectName{data}
+// we can put biodata, arrays, nested objects and general information:
