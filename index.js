@@ -1123,4 +1123,12 @@ some events are used in body while some inside the element and everyone has its 
 // let a = "somehow i managed to get on time.";
 // let b = a.indexOf("i");
 // console.log(b);
+// if no index found then it will result in -1:
+
+// Method 9: lastIndexOf():
+// counts the index from reverse and the tells us:
+// let a = "i am going to get graduated:";
+// let b = lastIndexOf("to");
+// console.log(b);
+
 
