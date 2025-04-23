@@ -1085,3 +1085,13 @@ some events are used in body while some inside the element and everyone has its 
 // let a = "i am coding";
 // let b = a.includes("is");
 // console.log(b);
+
+// method 4: startsWith():
+// used to find the starting characters of the string:
+// let a = "how was your day?";
+// let b = a.startsWith("how");
+// console.log(b);
+
+// let a = "how was your day?";
+// let b = a.startsWith("day");
+// console.log(b);
