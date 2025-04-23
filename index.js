@@ -1076,4 +1076,12 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.toUpperCase();
 // console.log(b);
 
-// 
+// method 3: Includes:
+// finds the words or characters in the string and replies with true or false if not found:
+// let a = "i am coding";
+// let b = a.includes("am");
+// console.log(b);
+
+// let a = "i am coding";
+// let b = a.includes("is");
+// console.log(b);
