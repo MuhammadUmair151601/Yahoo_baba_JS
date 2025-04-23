@@ -1063,3 +1063,12 @@ some events are used in body while some inside the element and everyone has its 
 // let a = "HEllo everyone how are you?";
 // let b = a.length;
 // console.log(b);
+
+// method 1: toLowerCase:
+// used to convert the string completely to lowercase:
+// let a = "Hello everyone";
+// let b = a.toLowerCase();
+// console.log(b);
+
+// Method 2: toUpperCase:
+// 
