@@ -1024,3 +1024,22 @@ some events are used in body while some inside the element and everyone has its 
 // // console.log(a.fname);
 // a.fname = "jan"
 // console.log(a.fname)
+
+// ***********************Lecture 54***********************************
+// for in loop:
+// // used to print all the elements of an object at once when we want to print an object we print one by one element:
+// let a = {
+//     name : "umair",
+//     age : 25,
+//     gender : "male", 
+//     education : "graduation"
+// }
+// // simply we do 
+// // console.log(a.name);
+// // console.log(a.age);
+// // console.log(a.gender);
+// // console.log(a.education);
+// for (let key in a){
+//     console.log(a[key] + "  ");
+// }
+// it will print all elements at once:
