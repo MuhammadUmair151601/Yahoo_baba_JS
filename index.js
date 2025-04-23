@@ -1002,4 +1002,25 @@ some events are used in body while some inside the element and everyone has its 
 // for (let a = 0; a<std.length; a++){
 //     console.log(std[a].Name + " " +std[a].age);
 // }
-// console.log(std[1].Name + " " + std[1].age);
+// // console.log(std[1].Name + " " + std[1].age);
+
+// *********************Lecture 53 *************************8
+// constant and variables with array and objects:
+// we can use objects inside an array and then we can also do some changes outside that array as well:
+// Example
+// let a = [
+//     {fname : "ali", lname : "khan"},
+//     { fname : "ahmed", lname : "raza"},
+//     { fname : "fahad", lname : "shah"}
+// ]
+// console.log(a);
+// now,
+// let a = 
+//     {
+//         fname : "ali", 
+//         lname : "khan",
+//         age : 25}
+    
+// // console.log(a.fname);
+// a.fname = "jan"
+// console.log(a.fname)
