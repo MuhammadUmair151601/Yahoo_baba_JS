@@ -1131,4 +1131,10 @@ some events are used in body while some inside the element and everyone has its 
 // let b = lastIndexOf("to");
 // console.log(b);
 
+// Method 10: replace:
+// used to replace characters with some others:
+// let a = "hello all";
+// let b = a.replace("all", "everyone");
+// console.log(b);
 
+// method 11: 
