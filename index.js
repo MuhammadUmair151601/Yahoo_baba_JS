@@ -1096,7 +1096,7 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.startsWith("day");
 // console.log(b);
 
-// method: endsWith();
+// method 5: endsWith();
 // let a = "I am fine";
 // let b = a.endsWith("fine");
 // console.log(b);
@@ -1105,3 +1105,15 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.endsWith("no");
 // console.log(b);
 
+// method 6: search():
+// used to search the character and show the index of that character:
+// let a = "hello everyone how are you all?"
+// let b = a.search("everyone");
+// console.log(b);
+
+
+// method 7: match():
+// used to find out the matching characters in the string and show them in an array form:
+// let a = "i am feeling well but i would like to be in bed insted";
+// let b = a.match("i");
+// console.log(b);
