@@ -1117,3 +1117,10 @@ some events are used in body while some inside the element and everyone has its 
 // let a = "i am feeling well but i would like to be in bed insted";
 // let b = a.match("i");
 // console.log(b);
+
+// method 8: indexOf():
+// used to show the index of the character:
+// let a = "somehow i managed to get on time.";
+// let b = a.indexOf("i");
+// console.log(b);
+
