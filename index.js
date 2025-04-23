@@ -1043,3 +1043,14 @@ some events are used in body while some inside the element and everyone has its 
 //     console.log(a[key] + "  ");
 // }
 // it will print all elements at once:
+
+// **********************lecture 55*********************
+// Map method in Js
+// if we want to do some changes in the array but it results in a new array without disturbing the current array:
+// let a = [1,2,3,4,5];
+// // we want to multiply a elements by 10: 
+// let b = a.map(multiply); 
+// function multiply(x){
+//     return x * 10;
+// }
+// console.log(b);
