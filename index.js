@@ -1054,3 +1054,12 @@ some events are used in body while some inside the element and everyone has its 
 //     return x * 10;
 // }
 // console.log(b);
+
+// ***********************Lecture 56 **********************
+// String methods:
+// 1: property:
+// length--> used to show us the length of the string:
+// Example:
+// let a = "HEllo everyone how are you?";
+// let b = a.length;
+// console.log(b);
