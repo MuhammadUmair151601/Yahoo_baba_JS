@@ -1071,4 +1071,9 @@ some events are used in body while some inside the element and everyone has its 
 // console.log(b);
 
 // Method 2: toUpperCase:
+// used to convert string to upper case letters:
+// let a = "HELLO EVERYONE HOW ARE YOU?"
+// let b = a.toUpperCase();
+// console.log(b);
+
 // 
