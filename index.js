@@ -1095,3 +1095,13 @@ some events are used in body while some inside the element and everyone has its 
 // let a = "how was your day?";
 // let b = a.startsWith("day");
 // console.log(b);
+
+// method: endsWith();
+// let a = "I am fine";
+// let b = a.endsWith("fine");
+// console.log(b);
+
+// let a = "I am fine";
+// let b = a.endsWith("no");
+// console.log(b);
+
