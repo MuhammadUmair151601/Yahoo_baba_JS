@@ -1137,4 +1137,8 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.replace("all", "everyone");
 // console.log(b);
 
-// method 11: 
+// method 11: trim:
+// used to trim the string from sides like extra spaces:
+// let a = "   what is your name   ";
+// let b = a.trim("what is your name");
+// alert(b);
