@@ -1157,4 +1157,9 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.charCodeAt(6)
 // console.log(b);
 
-// 
+// 14: concat(): 
+// used to combine strings together;
+// var a = "hello" + " ";
+// var b = "everyone";
+// var c = a.concat(b);
+// console.log(c);
