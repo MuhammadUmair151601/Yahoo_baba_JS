@@ -1163,3 +1163,11 @@ some events are used in body while some inside the element and everyone has its 
 // var b = "everyone";
 // var c = a.concat(b);
 // console.log(c);
+
+// 15: split();
+// used to split string on the positions we mention:and return it in the form of an array:
+// let a = "jS is very interesting";
+// let b = a.split("i");
+// console.log(b);
+
+// 
