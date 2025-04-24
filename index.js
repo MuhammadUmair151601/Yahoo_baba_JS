@@ -1176,4 +1176,8 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.repeat(10);
 // console.log(b);
 
-// 
+// 17: slice();
+// Give us the slice of the string:
+// let a = "its very cold today:";
+// let b = a.slice(3,8);
+// console.log(b);
