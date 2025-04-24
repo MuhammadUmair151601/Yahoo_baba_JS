@@ -1142,3 +1142,12 @@ some events are used in body while some inside the element and everyone has its 
 // let a = "   what is your name   ";
 // let b = a.trim("what is your name");
 // alert(b);
+
+// ***************************Lecture 57 ****************************/
+// string methods II:
+// charAt():
+// used to return the character at the given position:
+// let a = "Hello everyone";
+// let b = a.charAt(6);
+// console.log(b);
+
