@@ -1190,4 +1190,13 @@ some events are used in body while some inside the element and everyone has its 
 
 // 19: substr(): same as substring:
 
-// 
+// 20: toString();
+// convert the elements to the string:
+// let a = 155;
+// let b = a.toString();
+// console.log(b);
+// console.log(b + 55); 
+// now it will give 15555 not added as it is converted to string:
+
+// 21: valueOf();
+// default returns whatever value is declared like string and number.
