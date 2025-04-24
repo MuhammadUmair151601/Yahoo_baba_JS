@@ -1181,3 +1181,13 @@ some events are used in body while some inside the element and everyone has its 
 // let a = "its very cold today:";
 // let b = a.slice(3,8);
 // console.log(b);
+
+// 18: substring():
+// same as slice(): but return value from the position mentioned:
+// let a = "ali_ahmed";
+// let b = a.substring(6);
+// console.log(b);
+
+// 19: substr(): same as substring:
+
+// 
