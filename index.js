@@ -1170,4 +1170,10 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.split("i");
 // console.log(b);
 
+// 16: repeat();
+// used to repeat the string how many times we want:
+// let a = "I am good in coding "+ " \n";
+// let b = a.repeat(10);
+// console.log(b);
+
 // 
