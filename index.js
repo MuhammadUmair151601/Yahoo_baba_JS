@@ -1209,3 +1209,15 @@ some events are used in body while some inside the element and everyone has its 
 // let b = Number(a);
 // console.log(b + 10);
 // IT WILL RETURN 200:
+
+// 2: parseInt(x):
+// convert the decimal number to the integer:
+// let a = 1.22;
+// let b = parseInt(a);
+// console.log(b);
+
+// 3: parseFloat(x):
+// it converts the string into Floating number:
+// let a = 23.567757;
+// let b = parseFloat(a);
+// console.log(b);
