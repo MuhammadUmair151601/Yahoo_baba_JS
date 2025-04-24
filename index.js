@@ -1145,9 +1145,16 @@ some events are used in body while some inside the element and everyone has its 
 
 // ***************************Lecture 57 ****************************/
 // string methods II:
-// charAt():
+// 12: charAt():
 // used to return the character at the given position:
 // let a = "Hello everyone";
 // let b = a.charAt(6);
 // console.log(b);
 
+// 13: charCodeAt():
+// // returns the ascii code of the character of the position:
+// let a =  "Hello everyone";
+// let b = a.charCodeAt(6)
+// console.log(b);
+
+// 
