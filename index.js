@@ -1200,3 +1200,12 @@ some events are used in body while some inside the element and everyone has its 
 
 // 21: valueOf();
 // default returns whatever value is declared like string and number.
+
+// *******************************Lecture 58*****************************
+// Number methods(): used to apply different methods related to numbers:
+// 1: number();
+// converts a number declared in string is converted to number: opposite of toString():
+// let a = "190";
+// let b = Number(a);
+// console.log(b + 10);
+// IT WILL RETURN 200:
