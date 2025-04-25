@@ -1263,3 +1263,10 @@ some events are used in body while some inside the element and everyone has its 
 // let a = 5.44;
 // let b = Math.floor(a);
 // console.log(b);
+
+// 3: Math.round(x):
+// combination of ceil and floor and round off to the nearest integer value:
+// let a = 34.43;
+// let b = Math.round(a);
+// console.log(b);
+
