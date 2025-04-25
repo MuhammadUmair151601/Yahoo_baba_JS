@@ -1244,4 +1244,11 @@ some events are used in body while some inside the element and everyone has its 
 // let b = a.toFixed();
 // console.log(b);
 
-// 7: 
+// 7: toPrecision:
+// round off the value to the required precision:
+// let a = 123.23423;
+// let b = a.toPrecision(5);
+// console.log(b);
+
+//***********************Lecture 59 *******************************
+// Math methods:
