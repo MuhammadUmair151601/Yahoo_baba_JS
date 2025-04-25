@@ -1292,3 +1292,8 @@ some events are used in body while some inside the element and everyone has its 
 // it gives the cube root of a number:
 // math.pow(x,y);
 // gives power of the number:
+
+// 10: math.random():
+// chooses the random value between two points:
+
+// console.log(Math.floor(Math.random() * 100)+1 );
