@@ -1227,3 +1227,13 @@ some events are used in body while some inside the element and everyone has its 
 // let a = Infinity;
 // let b = isFinite(a);
 // console.log(b);
+
+// 5: isInteger():
+// used to fing whether the number is integer or not:
+// let a = 45.5;
+// let b = Number.isInteger(a);
+// console.log(b);
+// now if we put an integer value:
+// let a = 45;
+// let b = Number.isInteger(a);
+// console.log(b);
