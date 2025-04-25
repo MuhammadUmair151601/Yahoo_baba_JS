@@ -1258,4 +1258,8 @@ some events are used in body while some inside the element and everyone has its 
 // let b = Math.ceil(a);
 // console.log(b);
 
-// 2:
+// 2: Math.floor():
+// used to round off the number to the nearest value below than 0.5:
+// let a = 5.44;
+// let b = Math.floor(a);
+// console.log(b);
