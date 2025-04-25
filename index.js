@@ -1304,3 +1304,47 @@ some events are used in body while some inside the element and everyone has its 
 
 // math.pi:
 // it prints the value of pi 22/7 or the exact value which is 3.14:
+
+// ************************Date Methods******************************
+// used to fixed different date related situations:
+// var a = new Date();
+// console.log(a);
+// it will give us the date and its location from out PC:
+
+// a.getdate(): will give us the today date only;
+// let a = new Date();
+// let b = a.getDate();
+// console.log(b);
+
+// a.getfullyear(): will give us the current year:
+// let a = new Date();
+// let b = a.getFullYear();
+// console.log(b);
+
+// a.getmonth(): will give us the current month:
+// let a = new Date();
+// let b = a.getMonth();
+// console.log(b);
+
+// a.getday(): will return the current day:
+// let a = new Date();
+// let b = a.getDay();
+// console.log(b);
+
+// a.gethours(): will give us the current hour:
+// let a = new Date();
+// let b = a.getHours();
+// console.log(b);
+
+// a.getminutes,seconds and milliseconds are also used:
+
+// let date = new Date(); 
+
+// date.setDate(15);             
+// date.setMonth(0);             
+// date.setFullYear(2025);                  
+// date.setMinutes(30);          
+// date.setSeconds(0);  
+
+// console.log(date);  
+
