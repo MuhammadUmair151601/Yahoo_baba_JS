@@ -1221,3 +1221,9 @@ some events are used in body while some inside the element and everyone has its 
 // let a = 23.567757;
 // let b = parseFloat(a);
 // console.log(b);
+
+// 4: isFinite():
+// used to show whether the number is finite or not: it will tell us whether it is true or not:
+// let a = Infinity;
+// let b = isFinite(a);
+// console.log(b);
