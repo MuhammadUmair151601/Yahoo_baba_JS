@@ -1270,3 +1270,12 @@ some events are used in body while some inside the element and everyone has its 
 // let b = Math.round(a);
 // console.log(b);
 
+// 4: Math.max(x,x,x,x,x,):
+// find out the maximum value among the multiple values in the group:
+// let a = Math.max(1,2,3,4,5,5,6,6);
+// console.log(a);
+
+// 5: Math.min(x,x,x,x,x):
+// finds out the minimum number among the group numbers:
+// let a = Math.min(1,2,3,4,4,5,6,6,7,8,9);
+// console.log(a); 
