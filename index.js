@@ -1297,3 +1297,10 @@ some events are used in body while some inside the element and everyone has its 
 // chooses the random value between two points:
 
 // console.log(Math.floor(Math.random() * 100)+1 );
+
+//  11: math.abs(x):
+// provides the absolute value of number:
+// example |a| same as in mathematics:
+
+// math.pi:
+// it prints the value of pi 22/7 or the exact value which is 3.14:
