@@ -1237,3 +1237,11 @@ some events are used in body while some inside the element and everyone has its 
 // let a = 45;
 // let b = Number.isInteger(a);
 // console.log(b);
+
+// 6: toFixed:
+// used to convert a decimal value to a nearest fixed value:
+// let a = 45.665;
+// let b = a.toFixed();
+// console.log(b);
+
+// 7: 
