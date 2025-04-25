@@ -1279,3 +1279,9 @@ some events are used in body while some inside the element and everyone has its 
 // finds out the minimum number among the group numbers:
 // let a = Math.min(1,2,3,4,4,5,6,6,7,8,9);
 // console.log(a); 
+
+// 6: Math.trunc():
+// convert numer to simple  integer:
+// let a = 34.545;
+// let b = Math.trunc(a);
+// console.log(b);
