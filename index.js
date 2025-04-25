@@ -1285,3 +1285,10 @@ some events are used in body while some inside the element and everyone has its 
 // let a = 34.545;
 // let b = Math.trunc(a);
 // console.log(b);
+
+// 7,8,9: math.sqrt(x);
+// it gives the square root of a number:
+// math.cbrt(x):
+// it gives the cube root of a number:
+// math.pow(x,y);
+// gives power of the number:
