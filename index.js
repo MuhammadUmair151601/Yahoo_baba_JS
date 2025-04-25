@@ -1252,3 +1252,10 @@ some events are used in body while some inside the element and everyone has its 
 
 //***********************Lecture 59 *******************************
 // Math methods:
+// 1: Math.ceil();
+// used to round off the number to the nearest value above than 0.5:
+// let a = 5.56;
+// let b = Math.ceil(a);
+// console.log(b);
+
+// 2:
