@@ -1354,3 +1354,9 @@ some events are used in body while some inside the element and everyone has its 
 // changing elements, changing elements, reacting to user actions and deleting elements from page.
 // it uses the HTML tree to access different elements of the page.
 // we will use mostly get and set methods mostly in this.
+
+// **********************Lecture 62*****************************
+// Methods for targeting elements in DOM:[index number if there exist multiple ids]
+// ID: getElementbyId("idname"):
+// class: getElementbyClass("classname")[index number if there are multiple classes]:
+// tag: getElementbytagname("tagname")[index number if there exist multiple tags]:
