@@ -1362,9 +1362,15 @@ some events are used in body while some inside the element and everyone has its 
 // tag: getElementbytagname("tagname")[index number if there exist multiple tags]:
 
 // Example:
-let element;
-element = document;
+// let element;
+// element = document;
 // console.log(document.all);  --->shows all elements used in the page:
 // console.log(document.title); -->Targets the title of the page in HTML:
 // console.log(document.head); -->Targets the head of the HTML page:
 // console.log(document.body); -->Targets the body of the HTML page:
+// console.log(document.a); -->Targets all the anchor tags in page:
+// console.log(document.images); -->Targets all the images in the page:
+// console.log(document.doctype); -->shows which doc type is used in page:
+// console.log(document.URL); -->shows the url of the current page:
+// console.log(document.domain); --> shows the domain of the page:
+// console.log(document.URI); -->same as domain:
