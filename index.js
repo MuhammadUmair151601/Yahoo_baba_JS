@@ -1348,3 +1348,9 @@ some events are used in body while some inside the element and everyone has its 
 
 // console.log(date);  
 
+// *********************Lecture 61*********************************
+// DOM (document object modele):
+// important same as events because JavaScript uses the DOM to access and manipulate HTML or CSS dynamically.
+// changing elements, changing elements, reacting to user actions and deleting elements from page.
+// it uses the HTML tree to access different elements of the page.
+// we will use mostly get and set methods mostly in this.
