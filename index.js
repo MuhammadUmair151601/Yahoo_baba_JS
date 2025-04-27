@@ -1374,3 +1374,20 @@ some events are used in body while some inside the element and everyone has its 
 // console.log(document.URL); -->shows the url of the current page:
 // console.log(document.domain); --> shows the domain of the page:
 // console.log(document.URI); -->same as domain:
+
+// ******************lecture 63********************
+// Get and set methods in DOM:
+// Get:
+// we can get HTML,text and attributes through get method
+// now, for getting the inner values we use the following methods:
+// innertext used for getting the text
+// let element;
+// element = document.getElementsByTagName("h1")[0].innerText;
+// console.log(element);
+// innerHTMl for getting Inner HTMl
+let element;
+element = document.getElementsByTagName("h1")[0].innerText;
+console.log(element);
+// getAttribute
+// getAttributenode
+// attributes
