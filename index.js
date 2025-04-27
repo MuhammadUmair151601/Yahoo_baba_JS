@@ -1402,3 +1402,11 @@ some events are used in body while some inside the element and everyone has its 
 // let element;
 // element= document.getElementById("paragraph").getAttributeNode("class");
 // console.log(element);
+// element= document.getElementById("paragraph").getAttributeNode("class").value;--->will return only value inside quotes:
+
+// Attributes:
+// shows all the attributes used inside a tag:
+// attribute.[1]name; for only name of attribute:
+// let element;
+// element = document.getElementById("paragraph").attributes;
+// console.log(element);
