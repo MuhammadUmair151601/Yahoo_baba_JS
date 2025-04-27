@@ -1380,14 +1380,25 @@ some events are used in body while some inside the element and everyone has its 
 // Get:
 // we can get HTML,text and attributes through get method
 // now, for getting the inner values we use the following methods:
+
 // innertext used for getting the text
 // let element;
 // element = document.getElementsByTagName("h1")[0].innerText;
 // console.log(element);
+
 // innerHTMl for getting Inner HTMl
 // var element;
 // element = document.getElementById("paragraph").innerHTML;
 // console.log(element);
-// getAttribute
-// getAttributenode
+
+// getAttribute --> gives the value of the attribute:when the same tag consist ot two attributes like id and class:
+// it will call the only attribute called inside that tag: either style, onClick() etc.
+// let element;
+// element = document.getElementById("paragraph").getAttribute("id");
+// console.log(element);
+
+// getAttributenode -->Same as get attribute but it returns the name of the attribute as well with the name:
 // attributes
+// let element;
+// element= document.getElementById("paragraph").getAttributeNode("class");
+// console.log(element);
