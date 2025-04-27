@@ -1385,9 +1385,9 @@ some events are used in body while some inside the element and everyone has its 
 // element = document.getElementsByTagName("h1")[0].innerText;
 // console.log(element);
 // innerHTMl for getting Inner HTMl
-let element;
-element = document.getElementsByTagName("h1")[0].innerText;
-console.log(element);
+// var element;
+// element = document.getElementById("paragraph").innerHTML;
+// console.log(element);
 // getAttribute
 // getAttributenode
 // attributes
