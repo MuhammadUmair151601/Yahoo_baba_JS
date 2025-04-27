@@ -1425,3 +1425,8 @@ some events are used in body while some inside the element and everyone has its 
 // let element = document.getElementById("paragraph"); // get the element first
 // element.setAttribute("class", "xyz"); // then change the class
 // console.log(element);
+
+// removeAttribute: removes complete attribute:
+// let element = document.getElementById("paragraph");
+// element.removeAttribute("class");
+// console.log(element);
