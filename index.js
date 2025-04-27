@@ -1410,3 +1410,13 @@ some events are used in body while some inside the element and everyone has its 
 // let element;
 // element = document.getElementById("paragraph").attributes;
 // console.log(element);
+
+// changing the innertext in a tag:it changes the inner text:
+// let item;
+// item = document.getElementById("paragraph").innerText = ("so far so good");
+// console.log(item);
+
+// Changing the innerHTML innertext from inside: it changes the inner HTML: 
+// let element;
+// element= document.getElementById("paragraph").innerHTML = ("Hi everyone");
+// console.log(element);
