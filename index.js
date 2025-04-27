@@ -1420,3 +1420,8 @@ some events are used in body while some inside the element and everyone has its 
 // let element;
 // element= document.getElementById("paragraph").innerHTML = ("Hi everyone");
 // console.log(element);
+
+// setAttribute: used to change the attribute values;
+// let element = document.getElementById("paragraph"); // get the element first
+// element.setAttribute("class", "xyz"); // then change the class
+// console.log(element);
