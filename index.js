@@ -1449,3 +1449,11 @@ some events are used in body while some inside the element and everyone has its 
 // document.querySelectorAll("h1").forEach(function(h1){
 //  h1.style.backgroundColor = "tan";
 // });
+
+// *********************Lecture 66********************************
+// className method and classList method:
+// className method is used to replace a class name with the new one:
+// let element = document.querySelector("#hi");
+// console.log(element.className);
+// element.className = "everyone";
+
