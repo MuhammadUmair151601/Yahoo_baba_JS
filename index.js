@@ -1439,3 +1439,13 @@ some events are used in body while some inside the element and everyone has its 
 // document.querySelectorAll("element");
 // it returns all the same name elements:
 
+// **********************Lecture 65*******************************
+// DOM css styling methods:
+// we can implement styling on elements of HTML using queryselectors:
+// document.querySelector("h1").style.backgroundColor = "grey";
+// in above line we targeted only 1st h1 through DOM:
+// Now, for selecting all h1 elements.
+// document.querySelectorAll("h1").forEach(h1 => h1.style.color = "blue");
+// document.querySelectorAll("h1").forEach(function(h1){
+//  h1.style.backgroundColor = "tan";
+// });
