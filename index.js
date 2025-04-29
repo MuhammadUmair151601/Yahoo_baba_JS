@@ -1430,3 +1430,12 @@ some events are used in body while some inside the element and everyone has its 
 // let element = document.getElementById("paragraph");
 // element.removeAttribute("class");
 // console.log(element);
+
+// ***********************Lecture 64*******************************
+// DOM query selector and DOM query selector all():
+// generally it can be written as 
+// document.querySelector("element"):
+// it returns the first button element: while
+// document.querySelectorAll("element");
+// it returns all the same name elements:
+
