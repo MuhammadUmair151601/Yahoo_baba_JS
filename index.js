@@ -1457,3 +1457,12 @@ some events are used in body while some inside the element and everyone has its 
 // console.log(element.className);
 // element.className = "everyone";
 
+// classList method is used for adding, removing and togling(if present then remove if not present then add):
+// it returns classes in the form of an array:
+// let element = document.querySelector("#hi");
+// now.classList.add("blue");
+// now.classList.remove("everyone");
+
+// ***********************Lecture 67***************************
+// Adding eventlistener():
+// we
