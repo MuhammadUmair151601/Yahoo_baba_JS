@@ -1465,4 +1465,15 @@ some events are used in body while some inside the element and everyone has its 
 
 // ***********************Lecture 67***************************
 // Adding eventlistener():
-// we
+// we normally use the onclick and onmouseenter events in HTML which makes the HTML more complex and difficult to understand:
+// now we will use eventlisteners in DOM in order to handle the code from outside the HTML:
+// document.getElementById("now").onclick = function(){
+//     document.getElementById("now").style.backgroundColor = "yellow";
+// }
+
+// ****************************Lecture 68***********************
+// DOM traversal method:
+// used to access the parent and child elements related to each other:
+// 1: parentElements or parentNodes:
+var a = document.getElementById("inner").parentElement.style.backgroundColor = "yellow";
+// it will targer the parent element of the inner element and change its background color:
