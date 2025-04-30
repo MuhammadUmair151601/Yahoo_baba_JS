@@ -1475,5 +1475,9 @@ some events are used in body while some inside the element and everyone has its 
 // DOM traversal method:
 // used to access the parent and child elements related to each other:
 // 1: parentElements or parentNodes:
-var a = document.getElementById("inner").parentElement.style.backgroundColor = "yellow";
+// var a = document.getElementById("inner").parentElement.style.backgroundColor = "yellow";
 // it will targer the parent element of the inner element and change its background color:
+
+// var a = document.getElementById("inner").parentNode;
+// console.log(a);
+// this will target the parent node and and show the tags as well in the console.
