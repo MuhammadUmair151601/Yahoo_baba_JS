@@ -1493,3 +1493,12 @@ some events are used in body while some inside the element and everyone has its 
 // let a = document.getElementById("outer").childNodes;
 // console.log(a);
 // it will return all the nodes in the array form:
+
+// ********************Lecture 70*********************************
+// firstchild and lastchild elements:
+// firstChildelement:
+// it targets the first childElement of the current elements:
+// let a = document.getElementById("outer").firstElementChild.innerHTML;
+// console.log(a);
+
+// 
