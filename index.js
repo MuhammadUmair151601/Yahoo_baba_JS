@@ -1501,4 +1501,7 @@ some events are used in body while some inside the element and everyone has its 
 // let a = document.getElementById("outer").firstElementChild.innerHTML;
 // console.log(a);
 
-// 
+// lastChildElement:
+// // it targets the last child element:
+// let a = document.getElementById("inner").lastElementChild.innerHTML;
+// console.log(a);
