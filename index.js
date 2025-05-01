@@ -1481,3 +1481,15 @@ some events are used in body while some inside the element and everyone has its 
 // var a = document.getElementById("inner").parentNode;
 // console.log(a);
 // this will target the parent node and and show the tags as well in the console.
+
+// **********************Lecture 69*******************************
+// children and childNode:
+// childElement
+// we can access the child node as well just like accessing the parent node of the current node:
+// let a = document.getElementById("outer").children[0];
+// console.log(a);
+
+// childNode:
+// let a = document.getElementById("outer").childNodes;
+// console.log(a);
+// it will return all the nodes in the array form:
