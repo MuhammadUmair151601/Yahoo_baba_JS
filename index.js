@@ -1545,3 +1545,16 @@ some events are used in body while some inside the element and everyone has its 
 // // now to put the text before the other text:
 // var target = document.getElementById("a");
 // target.insertBefore(b , target.childNodes[0]) --> this will insert the text before the text in h1:
+
+// **********************Lecture 74******************************
+// InsertAdjacentElements"
+// they create elements and append them all at once:
+// let a =  document.createElement("h1");
+// let b = document.createTextNode("This is text");
+// a.appendChild(b);
+// var target = document.getElementById("hi");
+// target.insertAdjacentElement("beforeend", hi); -->This will insert the text before the end of the text in h1:
+// target.insertAdjacentElement("beforebegin", a ) -->This will insert the text after the text in h1:
+// Same goes for the HTML and commnts as well:
+
+// **********************Lecture 75***************************
