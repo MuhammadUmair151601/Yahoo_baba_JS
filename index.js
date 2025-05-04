@@ -1514,3 +1514,21 @@ some events are used in body while some inside the element and everyone has its 
 // previousElementSibling:
 // let a = document.getElementById("child").previousElementSibling.innerHTML;
 // console.log(a);
+
+// **********************Lecture 72*****************************
+// create element method:
+// create element method is used to create the the HTML tags, new html elements and comments in page:
+// creating HTML tags:
+// var a = document.createElement("h1");
+// console.log(a);
+// <h1></h1> created in console.
+
+// create textnode:
+// let b = document.createTextNode("Hello everyone");
+// console.log(b);
+// text created in console.
+
+// create comment:
+// let c = document.createComment("this is a comment");
+// console.log(c);
+// comment created:
