@@ -1532,3 +1532,16 @@ some events are used in body while some inside the element and everyone has its 
 // let c = document.createComment("this is a comment");
 // console.log(c);
 // comment created:
+
+// ********************Lecture 73*********************************
+// DOM append models:
+// // used to attach two elements with each other in DOM:
+
+// let b = document.createTextNode("This text is inside h1");
+  
+// document.getElementById("a").appendChild(b);
+// the text is inserted inside the h1 tag in HTML page:
+// this will be inserted into a div at the end of the div or tag
+// // now to put the text before the other text:
+// var target = document.getElementById("a");
+// target.insertBefore(b , target.childNodes[0]) --> this will insert the text before the text in h1:
