@@ -1558,3 +1558,21 @@ some events are used in body while some inside the element and everyone has its 
 // Same goes for the HTML and commnts as well:
 
 // **********************Lecture 75***************************
+// Replace and removing the child elements in DOM:
+// general form:
+// terget.replaceChild(oldone, newone):
+// target.removechild([0]):
+
+// let a = document.createElement("li");
+// let b = document.createTextNode("this is text");
+// a.appendChild(b);
+// var target = document.getElementById("id1");
+// var oldElement = target.children[1];
+// // console.log(oldElement); 
+// target.replaceChild(a, oldElement);
+
+// if we want to remove the child completely then we use remove the child with:
+
+// var target = document.getElementById("id1");
+// var oldElement = target.children[1];
+// target.removeChild(oldElement);
