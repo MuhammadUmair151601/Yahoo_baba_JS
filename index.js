@@ -1576,3 +1576,11 @@ some events are used in body while some inside the element and everyone has its 
 // var target = document.getElementById("id1");
 // var oldElement = target.children[1];
 // target.removeChild(oldElement);
+
+// *******************Lecture 76*************************
+// DOM cloneNode method:
+// var target = document.getElementById("list1").children[0];
+// var copyElement = document.cloneNode(true);
+// console.log(copyElement);
+// document.getElementById("list2").appendChild(copyElement);
+
