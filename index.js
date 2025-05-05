@@ -1584,3 +1584,17 @@ some events are used in body while some inside the element and everyone has its 
 // console.log(copyElement);
 // document.getElementById("list2").appendChild(copyElement);
 
+// ********************Lecture 77*************************
+// contains() methods:
+// used to find whether the element or attribute is available inside the current element:
+// var parentElement = document.getElementById("list1");
+// var target = document.getElementById("list2");
+// var find = parentElement.contains(target);
+// console.log(find);
+// it will return false as there is no list2 attribute inside list1 attribute:
+
+// var parentElement = document.getElementById("list1");
+// var target = document.getElementById("ban");
+// var find = parentElement.contains(target);
+// console.log(find);
+// it will return true as ban is available in the list1 attribute:
