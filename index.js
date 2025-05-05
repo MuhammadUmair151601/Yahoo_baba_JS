@@ -1610,3 +1610,11 @@ some events are used in body while some inside the element and everyone has its 
 // let a = document.getElementById("list1");
 // let b = a.hasChildNodes();
 // console.log(b);
+
+// **********************Lecture 79*************************
+// isEqualNode():
+// used for the finding whether the nodes in the separate list are equal or not:
+// let target1 = document.getElementById("list1").firstElementChild;
+// let target2 = document.getElementById("list2").children[1];
+// let equal = target1.isEqualNode(target2);
+// console.log(equal);
