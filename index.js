@@ -1598,3 +1598,15 @@ some events are used in body while some inside the element and everyone has its 
 // var find = parentElement.contains(target);
 // console.log(find);
 // it will return true as ban is available in the list1 attribute:
+
+// *******************Lecture 78****************************
+// has child and has attributes method:
+// used either the element has a child node available or not same for the has attribute:
+// let element = document.getElementById("list1");
+// let find = element.hasAttribute("id");
+// console.log(find);
+
+// for hasChild():
+// let a = document.getElementById("list1");
+// let b = a.hasChildNodes();
+// console.log(b);
