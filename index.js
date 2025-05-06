@@ -1632,3 +1632,7 @@ some events are used in body while some inside the element and everyone has its 
 
 // input():
 // implemented on text area only and it applies the event as we start to write something in it:
+function blurfunction(element){
+    var x = element.value;
+    document.getElementById("div1").innerHTML= x;
+}
