@@ -1653,3 +1653,9 @@ some events are used in body while some inside the element and everyone has its 
 // function Sf(){
 //     console.log("you selected some  text")
 // }
+
+// onsubmit:
+// it will  trigger as we submit the form:
+// function submitfunction(){
+//     alert("you submitted a form:")
+// }
