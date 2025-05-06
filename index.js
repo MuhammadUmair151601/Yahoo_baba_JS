@@ -1641,7 +1641,15 @@ some events are used in body while some inside the element and everyone has its 
 // ***********************Lecture 81***********************
 // Change:, select:, submit: invalid:
 // it is used to change the value in anothor element as the value in the current element changes:
-function changeFunction(element){
-  var x =  element.value;
-  document.getElementById("div1").innerHTML = x;
-}
+// function changeFunction(element){
+//   var x =  element.value;
+//   document.getElementById("div1").innerHTML = x;
+// }
+// we can implement this on the textbox as well:
+
+// select method:
+// it works when already something is declared inside the textbox and we select it as we select the text it will trigger and do it worK:
+
+// function Sf(){
+//     console.log("you selected some  text")
+// }
