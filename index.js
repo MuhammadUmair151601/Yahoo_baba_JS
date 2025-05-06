@@ -1622,7 +1622,8 @@ some events are used in body while some inside the element and everyone has its 
 // *********************Lecture 80*************************
 // Forms events:
 // Focus(), blurr(), input(), change(), select(), submit(), invalid():
-// Focus:
+// Focus: Blur:
+// focus used to put some extra feature when we start writing inside the text area while blur used to come to original state when we go to next text area field:
 // function namefunc(element){
 // element.style.backgroundColor = "tan";
 // }
@@ -1632,7 +1633,15 @@ some events are used in body while some inside the element and everyone has its 
 
 // input():
 // implemented on text area only and it applies the event as we start to write something in it:
-function blurfunction(element){
-    var x = element.value;
-    document.getElementById("div1").innerHTML= x;
+// function blurfunction(element){
+//     var x = element.value;
+//     document.getElementById("div1").innerHTML= x;
+// }
+
+// ***********************Lecture 81***********************
+// Change:, select:, submit: invalid:
+// it is used to change the value in anothor element as the value in the current element changes:
+function changeFunction(element){
+  var x =  element.value;
+  document.getElementById("div1").innerHTML = x;
 }
