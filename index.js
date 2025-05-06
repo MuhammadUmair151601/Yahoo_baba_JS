@@ -1618,3 +1618,17 @@ some events are used in body while some inside the element and everyone has its 
 // let target2 = document.getElementById("list2").children[1];
 // let equal = target1.isEqualNode(target2);
 // console.log(equal);
+
+// *********************Lecture 80*************************
+// Forms events:
+// Focus(), blurr(), input(), change(), select(), submit(), invalid():
+// Focus:
+// function namefunc(element){
+// element.style.backgroundColor = "tan";
+// }
+// function blurfunction(element){
+//     element.style.backgroundColor = "";
+// }
+
+// input():
+// implemented on text area only and it applies the event as we start to write something in it:
