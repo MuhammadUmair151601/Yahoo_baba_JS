@@ -1657,5 +1657,8 @@ some events are used in body while some inside the element and everyone has its 
 // onsubmit:
 // it will  trigger as we submit the form:
 // function submitfunction(){
-//     alert("you submitted a form:")
+//     var x = document.getElementById("fname").value
+//     alert("hello " + x +" you submitted a form:")
 // }
+
+// invalid:
