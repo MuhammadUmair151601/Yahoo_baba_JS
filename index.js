@@ -1662,3 +1662,21 @@ some events are used in body while some inside the element and everyone has its 
 // }
 
 // invalid:
+
+// ***********************lecture 82***************************
+// setinterval and clearinterval:
+// used for  animations on elements:
+// generally written as:
+// setinterval(functionName,millisecond)
+// var a = 0;
+// var b = setInterval(Ani , 1000);
+// function Ani(){
+//     a = a + 10;
+//     if(a == 200){
+//         clearInterval(b);
+//     }
+//     else{
+//         var target = document.getElementById("div1");
+//         target.style.width= a + "px";
+//     }
+// }
