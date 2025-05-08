@@ -1706,3 +1706,16 @@ some events are used in body while some inside the element and everyone has its 
 // scroll browser window:
 // get url, hostname ,protocl and  even history of browser:
 
+// ****************************Lecture 85*****************************
+// getting height and width of window  
+// inner height, inner  width:
+// outer height, outer width:
+// var a = window.innerHeight;
+// console.log("inner height is " + a);
+// var b = window.outerHeight;
+// console.log("outer height is " + b);
+
+// var c = window.innerWidth;
+// console.log("inner width is " + c);
+// var d = window.outerWidth;
+// console.log("outer width is " + d);
