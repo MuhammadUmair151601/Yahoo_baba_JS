@@ -1719,3 +1719,17 @@ some events are used in body while some inside the element and everyone has its 
 // console.log("inner width is " + c);
 // var d = window.outerWidth;
 // console.log("outer width is " + d);
+
+// **********************Lecture 86***************************
+// window open() and close() method:
+// if we want to open a new window from the current window we use window open() method:
+// if we want to close the window we use window close() method:
+// generally written as: window.open(url, name, specs)
+
+// var mywindow;
+// function open() {
+//   mywindow=  window.open("https://www.google.com/", "_blank","width = 500px ,height = 300px");
+// }
+// function close(){
+//  mywindow.close;
+// }
