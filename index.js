@@ -1680,3 +1680,14 @@ some events are used in body while some inside the element and everyone has its 
 //         target.style.width= a + "px";
 //     }
 // }
+
+// ***************************Lecture 83*******************************
+// setTimeout and clearTimeout:
+// we want to do animation for specific period of time:
+// generally: setTimeout(functionName,millisecond)
+// var a = setTimeout(Anim,3000);
+// function Anim(){
+//     var target = document.getElementById("div1");
+//     target.style.width = "500px";
+// }
+// its width will increas by 500 px after 3 seconds:
