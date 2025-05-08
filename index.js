@@ -1685,12 +1685,24 @@ some events are used in body while some inside the element and everyone has its 
 // setTimeout and clearTimeout:
 // we want to do animation for specific period of time:
 // generally: setTimeout(functionName,millisecond)
-var a = setTimeout(Anim,5000);
-function Anim(){
-    var target = document.getElementById("div1");
-    target.style.width = "500px";
-}
-// its width will increas by 500 px after 3 seconds:
-function stop(){
-    clearTimeout(a);
-}
+// var a = setTimeout(Anim,5000);
+// function Anim(){
+//     var target = document.getElementById("div1");
+//     target.style.width = "500px";
+// }
+// // its width will increas by 500 px after 3 seconds:
+// function stop(){
+//     clearTimeout(a);
+// }
+
+// *******************************Lecture  84*************************
+// introduction to BOM:
+// Browser object model:
+// like window of a browser:
+// used for programming related to browser: window object
+// using windows object we can increase or decrease the height and width of the browser:
+// open and close browser window:
+// move and resize the windows:
+// scroll browser window:
+// get url, hostname ,protocl and  even history of browser:
+
