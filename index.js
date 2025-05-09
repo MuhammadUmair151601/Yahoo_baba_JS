@@ -1742,24 +1742,33 @@ some events are used in body while some inside the element and everyone has its 
 //     mywindow.moveto(100,100);f
 // }
 
-// var mywindow;
+var mywindow;
 
-//   function openWindow() {
-//     mywindow = window.open("", "", "width=500,height=300");
-//     mywindow.document.write("<p>This is my window</p>");
-//     mywindow.document.close(); // Important to finalize the document stream
-//   }
+  function openWindow() {
+    mywindow = window.open("", "", "width=500,height=300");
+    mywindow.document.write("<p>This is my window</p>");
+    mywindow.document.close(); // Important to finalize the document stream
+  }
 
-//   function closeWindow() {
-//     if (mywindow && !mywindow.closed) {
-//       mywindow.close();
-//     }
-//   }
+  function closeWindow() {
+    if (mywindow && !mywindow.closed) {
+      mywindow.close();
+    }
+  }
 
-//   function moveWindow() {
-//     if (mywindow && !mywindow.closed) {
-//       mywindow.moveTo(100, 100); // Moves the window to coordinates (100,100)
-//       window.focus();
-//     }
-//   }
+  function moveWindow() {
+    if (mywindow && !mywindow.closed) {
+      mywindow.moveTo(100, 100); // Moves the window to coordinates (100,100)
+      mywindow.focus();
+    }
+  }
 // // move by is same as move to but moveby takes start form the current position of the window:
+
+
+// ***********************Lecture 88*************************
+// resizeto() and resize by methods:
+// used to resize the size of the window from current current size:
+function resizewindow(){
+    mywindow.resizeto(700,700)
+}
+// resizeby() changes size from current size of the window:
