@@ -1728,8 +1728,38 @@ some events are used in body while some inside the element and everyone has its 
 
 // var mywindow;
 // function open() {
-//   mywindow=  window.open("https://www.google.com/", "_blank","width = 500px ,height = 300px");
+//   mywindow=  window.open("", "","width = 500px ,height = 300px");
+//   mywindow.document.write("<P>this is my window</p>")
 // }
 // function close(){
 //  mywindow.close;
 // }
+
+// ***************************Lecture 87********************************88
+// moveby() and moveto() methods;
+// window by default opens at 0 margin from top and left but we can move it with these methods:
+// function move(){
+//     mywindow.moveto(100,100);f
+// }
+
+// var mywindow;
+
+//   function openWindow() {
+//     mywindow = window.open("", "", "width=500,height=300");
+//     mywindow.document.write("<p>This is my window</p>");
+//     mywindow.document.close(); // Important to finalize the document stream
+//   }
+
+//   function closeWindow() {
+//     if (mywindow && !mywindow.closed) {
+//       mywindow.close();
+//     }
+//   }
+
+//   function moveWindow() {
+//     if (mywindow && !mywindow.closed) {
+//       mywindow.moveTo(100, 100); // Moves the window to coordinates (100,100)
+//       window.focus();
+//     }
+//   }
+// // move by is same as move to but moveby takes start form the current position of the window:
