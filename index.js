@@ -1742,33 +1742,44 @@ some events are used in body while some inside the element and everyone has its 
 //     mywindow.moveto(100,100);f
 // }
 
-var mywindow;
+// var mywindow;
 
-  function openWindow() {
-    mywindow = window.open("", "", "width=500,height=300");
-    mywindow.document.write("<p>This is my window</p>");
-    mywindow.document.close(); // Important to finalize the document stream
-  }
+//   function openWindow() {
+//     mywindow = window.open("", "", "width=500,height=300");
+//     mywindow.document.write("<p>This is my window</p>");
+//     mywindow.document.close(); // Important to finalize the document stream
+//   }
 
-  function closeWindow() {
-    if (mywindow && !mywindow.closed) {
-      mywindow.close();
-    }
-  }
+//   function closeWindow() {
+//     if (mywindow && !mywindow.closed) {
+//       mywindow.close();
+//     }
+//   }
 
-  function moveWindow() {
-    if (mywindow && !mywindow.closed) {
-      mywindow.moveTo(100, 100); // Moves the window to coordinates (100,100)
-      mywindow.focus();
-    }
-  }
+//   function moveWindow() {
+//     if (mywindow && !mywindow.closed) {
+//       mywindow.moveTo(100, 100); // Moves the window to coordinates (100,100)
+//       mywindow.focus();
+//     }
+//   }
 // // move by is same as move to but moveby takes start form the current position of the window:
 
 
 // ***********************Lecture 88*************************
 // resizeto() and resize by methods:
 // used to resize the size of the window from current current size:
-function resizewindow(){
-    mywindow.resizeto(700,700)
-}
+// function resizewindow(){
+//     mywindow.resizeto(700,700)
+// }
 // resizeby() changes size from current size of the window:
+
+// **********************lecture 89****************************
+// scrollby() and scrollto():
+// we use these methods to scroll the page without using the scroll bar:
+// there are two  types of scroll vertical and horizontal:
+// if we want to scroll up,left we will put values in -ive and for down,right we put values in +ive:
+// function scrollwindow(){
+//     window.scrollBy(0,200);
+// // first value for x axis and one value for Y axis:
+// // if we put -200 it will start moving up;
+// }
