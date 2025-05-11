@@ -1783,3 +1783,7 @@ some events are used in body while some inside the element and everyone has its 
 // // first value for x axis and one value for Y axis:
 // // if we put -200 it will start moving up;
 // }
+// scrollto(): used to scroll to the exact value on the page:
+// ex window.scrollto(50,50);
+// the page will leave only 50px gap from x and y axis:
+
