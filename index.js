@@ -1804,3 +1804,9 @@ some events are used in body while some inside the element and everyone has its 
 // // returns the the value after hash:
 // console.log(location.search);
 // // returns the value after the ?
+
+// Location object methods:
+// there are three methods in location objects>
+// assign() to assign new value create a button and put location.assign(www.google.com) in it.
+// reload() to relaod the page create a button and put location.reload() in it.
+// replace() to replace something same as assign but remove previous pages from history we cannot go back.
