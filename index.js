@@ -1787,3 +1787,20 @@ some events are used in body while some inside the element and everyone has its 
 // ex window.scrollto(50,50);
 // the page will leave only 50px gap from x and y axis:
 
+// ****************************Lecture 90****************************
+// location object:
+// Used in location bar of the window to get the location of the website:
+// console.log(location);
+// this will show all types of locations in console:
+// console.log(location.host)
+// // it will return host name or IP address:
+// console.log(location.href)
+// // returns the complete URL:
+// console.log(location.port);
+// // returns the port number:
+// console.log(location.protocol);
+// // returns the protocol used
+// console.log(location.hash);
+// // returns the the value after hash:
+// console.log(location.search);
+// // returns the value after the ?
