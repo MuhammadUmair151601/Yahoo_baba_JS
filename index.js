@@ -1810,3 +1810,24 @@ some events are used in body while some inside the element and everyone has its 
 // assign() to assign new value create a button and put location.assign(www.google.com) in it.
 // reload() to relaod the page create a button and put location.reload() in it.
 // replace() to replace something same as assign but remove previous pages from history we cannot go back.
+
+// ***********************Lecture 91**************************
+// History object:
+// used that how many pages in backward or forward are open using the arrow on the window page:
+// console.log(history);
+// it shows the number of pages in total:
+// console.log(history.length);
+// it will also show the number of pages:
+// methods for history object:
+// back(); for going back to previous page:
+// forward(); going forward to next page:
+// go(); works for both backward and forward:
+// function backfunction(){
+//     history.back();
+// }
+// function forwardfunction(){
+//     history.forward();
+// }
+// function gofunction(){
+    // history.go(1); 1 for forwarding the page and -1 for reversing the page: 2 for two pages forward and -2 two pages in reverse:
+// }
