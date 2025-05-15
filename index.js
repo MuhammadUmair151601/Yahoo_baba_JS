@@ -1831,3 +1831,18 @@ some events are used in body while some inside the element and everyone has its 
 // function gofunction(){
     // history.go(1); 1 for forwarding the page and -1 for reversing the page: 2 for two pages forward and -2 two pages in reverse:
 // }
+
+// ************************Lecture 92****************************
+// page Yoffset and page Xoffset:
+// used for how much the page has been scrolled on x axis and y axis:
+
+// window.addEventListener('scroll', function(){
+//     console.clear();
+// console.log("pageXOffset" + window.pageYOffset);
+// })
+// this will show us with the time how much page was scrolled:
+// window.addEventListener('scroll', function(){
+//     console.clear();
+// console.log("pageXOffset :" + window.pageXOffset);
+// })
+// it will show the horizontal scroll value:
