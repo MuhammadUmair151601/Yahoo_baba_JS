@@ -18,3 +18,14 @@
     width: 50px;
     background-color: tan;
 }
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    overflow: auto;
+}
+.inner{
+    height: 250px;
+    width: 1000px;
+    background-color: green;
+}

@@ -1860,6 +1860,8 @@ some events are used in body while some inside the element and everyone has its 
 // const target = document.querySelector("#box");
 
 // target.addEventListener("scroll", () => {
+//     console.clear();
 //   console.log("scrolltop :" + target.scrollTop);
+//    console.log("scrollleft :" + target.scrollLeft);
 // });
 // same for horizontal scroll:
