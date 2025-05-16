@@ -1846,3 +1846,20 @@ some events are used in body while some inside the element and everyone has its 
 // console.log("pageXOffset :" + window.pageXOffset);
 // })
 // it will show the horizontal scroll value:
+
+// ***************************lecture 93********************
+// offsettop offsetleft:
+// used to tell us how much the div or an element is far from top and left of the window:
+// var box = document.querySelector("#box");
+// console.log("offsettop :" + box.offsetTop);
+// console.log("offsetleft :" + box.offsetLeft);
+
+// *************************Lecture 94**********************
+// scrolltop and scrollleft:
+// used to know how much the page is scrolled from top and left:
+// const target = document.querySelector("#box");
+
+// target.addEventListener("scroll", () => {
+//   console.log("scrolltop :" + target.scrollTop);
+// });
+// same for horizontal scroll:
