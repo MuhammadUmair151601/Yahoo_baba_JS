@@ -1865,3 +1865,44 @@ some events are used in body while some inside the element and everyone has its 
 //    console.log("scrollleft :" + target.scrollLeft);
 // });
 // same for horizontal scroll:
+
+// *********************Lecture 95*******************************
+// scroll width and scroll height:
+// it is used to  show the height and width of the scroll:
+// const target = document.querySelector("#box");
+// var  width = target.scrollwidth;
+// var  height = target.scrollHeight;
+
+// console.log("scroll width :" + width);
+// console.log("scroll height :" + height);
+
+// **********************Lecture 96******************************
+// Offsetwidth and offsetheight:
+// this gives us the total height and width including the boundaries:
+// const target = document.querySelector("#box");
+// var width = target.offsetWidth;
+// var height  = target.offsetHeight;
+// console.log("offsetwidth :" + width);
+// console.log("ofsetheight :" + height);
+
+// ********************Lecture 97********************************
+// clientwidth and clientheight:
+// used to get the width and height of the window without including the border and scroller:
+// const target = document.querySelector("#box");
+// var height = target.clientHeight;
+// var width = target.clientWidth;
+// console.log(height);
+// console.log(width);
+
+// ********************Lecture 98****************************
+// clientX and clientY:
+// if we want to see the axis of mouse cursor:
+// document.addEventListener("mousemove",function(e){
+//     X = e.clientX;
+//     Y = e.clientY;
+//     console.clear();
+//     console.log(X);
+//     console.log(Y);
+// });
+
+
