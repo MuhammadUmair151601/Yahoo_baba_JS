@@ -1921,3 +1921,14 @@ some events are used in body while some inside the element and everyone has its 
 //     console.log(Y2);
 // })
 
+// ********************Lecture 100************************
+// ScreenX and ScreenY:
+// it is used to see the Axis of the actual screen of our pc cursor.
+document.addEventListener("mousemove",function(E){
+    X = E.screenX;
+    Y = E.screenY;
+    console.clear();
+    console.log(X);
+    console.log(Y);
+
+})
