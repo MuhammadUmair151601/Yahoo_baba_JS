@@ -1906,3 +1906,18 @@ some events are used in body while some inside the element and everyone has its 
 // });
 
 
+// *********************Lecture 99************************
+// pageX and pageY:
+// used to get the x and y axis of the mouse but this time inside the page like inside a div and scrollbar also added:
+// document.addEventListener("mousemove",function(A){
+//     var X =  A.pageX;
+//     var Y =  A.pageY;
+//     var X2 =  A.clientX;
+//     var Y2 =  A.clientY;
+//     console.clear();
+//     console.log(X);
+//     console.log(Y);
+//     console.log(X2);
+//     console.log(Y2);
+// })
+
