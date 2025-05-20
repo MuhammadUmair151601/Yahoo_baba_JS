@@ -1962,7 +1962,7 @@ some events are used in body while some inside the element and everyone has its 
 // now if we click on mouse on div it will give false but if we press ctrl key with mouse as well it will return true:
 // we can do it for the other keys as well:
 
-// *****************************Lecture**************************
+// *****************************Lecture 103**************************
 // mouse  button:
 // we  can use it to give functionality to the mouse button:
 // mousedown event is used in it:
@@ -1992,3 +1992,12 @@ some events are used in body while some inside the element and everyone has its 
 
 // })
 // it will give 1 on left button , 2 on right button
+
+// *****************************Lecture 104*********************************
+// js key property:
+// onkeydown property is used:
+// used to see which one key is pressed:
+// document.querySelector("#hi").addEventListener('keydown', function(e){
+//     var text = "you have entered the " + e.key + " button";
+//     console.log(text);
+// })
