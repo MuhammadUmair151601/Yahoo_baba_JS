@@ -1961,3 +1961,34 @@ some events are used in body while some inside the element and everyone has its 
 // })
 // now if we click on mouse on div it will give false but if we press ctrl key with mouse as well it will return true:
 // we can do it for the other keys as well:
+
+// *****************************Lecture**************************
+// mouse  button:
+// we  can use it to give functionality to the mouse button:
+// mousedown event is used in it:
+// var target = document.querySelector("#lorem");
+// target.addEventListener('mousedown', function(e){
+// var target = document.querySelector("#lorem");
+
+// target.addEventListener('mousedown', function(e) {
+//     var text;
+
+//     switch (e.button) {
+//         case 0:
+//             text = "yellow";
+//             break;
+//         case 1:
+//             text = "aqua";
+//             break;
+//         case 2:
+//             text = "pink";
+//             break;
+//         default:
+//             text = "black";
+//     }
+
+//     // target.style.backgroundColor = text;will show us the color we targeted:
+// });
+
+// })
+// it will give 1 on left button , 2 on right button
