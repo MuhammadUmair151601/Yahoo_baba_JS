@@ -1936,11 +1936,28 @@ some events are used in body while some inside the element and everyone has its 
 // *********************Lecture 101******************
 // offsetX and offsetY:
 // used to find the axis of the cursor regarding the div made in page:
-var target = document.querySelector("#lorem");
-target.addEventListener('mousemove', function(E){
-var X = E.offsetX;
-var Y = E.offsetY;
-console.clear();
-console.log(X);
-console.log(Y);
-})
+// var target = document.querySelector("#lorem");
+// target.addEventListener('mousemove', function(E){
+// var X = E.offsetX;
+// var Y = E.offsetY;
+// console.clear();
+// console.log(X);
+// console.log(Y);
+// })
+
+// ******************Lecture 102*********************
+// ctrl, shift, alt and meta key:
+// used if we want to add special functionality to the mouse by clicking the buttons with the mouse:
+// var target = document.querySelector("#lorem");
+// target.addEventListener('click', function(a){
+// var ctrl = a.ctrlKey;
+// // console.log(ctrl);
+// if(ctrl){
+//     console.log("you pressed ctrl key")
+// }
+// else{
+// console.log("you did not pressed ctrl key")
+// }
+// })
+// now if we click on mouse on div it will give false but if we press ctrl key with mouse as well it will return true:
+// we can do it for the other keys as well:
