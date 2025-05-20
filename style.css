@@ -29,3 +29,9 @@
     width: 1000px;
     background-color: green;
 }
+#lorem{
+    height: 400px;
+    width: 400px;
+    margin: 400px;
+    background-color: rgb(192, 191, 191);
+}
