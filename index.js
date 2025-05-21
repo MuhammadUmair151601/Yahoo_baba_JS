@@ -2001,3 +2001,19 @@ some events are used in body while some inside the element and everyone has its 
 //     var text = "you have entered the " + e.key + " button";
 //     console.log(text);
 // })
+
+// *****************************Lecture 105**********************************
+// clipboard events: oncut oncopy onpaste:
+var target = document.querySelector("#hi");
+target.addEventListener('copy', function(){
+    console.clear();
+    console.log("you copied text")
+})
+target.addEventListener('cut', function(){
+    console.clear();
+    console.log("you cut text")
+})
+target.addEventListener('paste', function(){
+    console.clear();
+    console.log("you paste text")
+})
