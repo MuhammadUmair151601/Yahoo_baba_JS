@@ -33,7 +33,7 @@
     height: 400px;
     width: 400px;
     margin: 400px;
-    background-color: rgb(192, 191, 191);
+    border: 1px solid black;
 }
 #hi{
     padding: 20px;

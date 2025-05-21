@@ -2004,16 +2004,33 @@ some events are used in body while some inside the element and everyone has its 
 
 // *****************************Lecture 105**********************************
 // clipboard events: oncut oncopy onpaste:
-var target = document.querySelector("#hi");
-target.addEventListener('copy', function(){
-    console.clear();
-    console.log("you copied text")
-})
-target.addEventListener('cut', function(){
-    console.clear();
-    console.log("you cut text")
-})
-target.addEventListener('paste', function(){
-    console.clear();
-    console.log("you paste text")
-})
+// var target = document.querySelector("#hi");
+// target.addEventListener('copy', function(){
+//     console.clear();
+//     console.log("you copied text")
+// })
+// target.addEventListener('cut', function(){
+//     console.clear();
+//     console.log("you cut text")
+// })
+// target.addEventListener('paste', function(){
+//     console.clear();
+//     console.log("you paste text")
+// })
+
+// *******************************Lecture 106************************
+// ononline and onoffline:
+// use whether the users internet is online or offline:
+// var target = document.querySelector("#lorem");
+
+//      window.addEventListener('offline', function(){
+//          target.innerHTML="You are offline";
+//          target.style.backgroundColor = "pink";
+//          console.log("you are offline");
+// })
+
+//  window.addEventListener('online', function(){
+//          target.innerHTML="You are online";
+//          target.style.backgroundColor = "green";
+//          console.log("you are on line");
+// })
